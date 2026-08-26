@@ -1,0 +1,79 @@
+    <!-- Consulting Form Modal -->
+    <div id="consultModal"
+        class="fixed inset-0 z-[100] hidden items-center justify-center bg-ink-black/60 backdrop-blur-sm p-4 opacity-0 transition-opacity duration-300">
+        <div class="bg-surface-container-lowest rounded-3xl w-full max-w-lg max-h-[90vh] overflow-y-auto shadow-2xl transform scale-95 transition-transform duration-300 relative"
+            id="consultModalContent">
+            
+            <button onclick="closeModal('consultModal')"
+                class="absolute top-4 right-4 w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container-high text-on-surface-variant transition-colors z-20">
+                <span class="material-symbols-outlined">close</span>
+            </button>
+
+            <div class="p-8 md:p-10 relative">
+                <!-- Decorative background -->
+                <div class="absolute top-0 left-0 w-full h-32 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-t-3xl overflow-hidden -z-10"></div>
+                <div class="absolute -top-6 -right-6 w-24 h-24 bg-secondary rounded-full -z-10 blur-2xl opacity-20"></div>
+                <div class="absolute -bottom-6 -left-6 w-32 h-32 bg-primary rounded-full -z-10 blur-2xl opacity-20"></div>
+                
+                <h3 class="font-headline-md text-primary mb-2 font-bold text-center">Đăng Ký Tư Vấn</h3>
+                <p class="text-center text-on-surface-variant mb-8 text-sm">Thông tin của bạn được bảo mật tuyệt đối</p>
+                
+                <form class="space-y-6 relative z-10" onsubmit="window.handleFormSubmit(event)" novalidate>
+                    <div>
+                        <label class="block text-on-surface-variant font-label-bold mb-2 text-sm" for="modal-name">Họ và
+                            tên</label>
+                        <input name="name" required pattern=".*\S+.*" title="Họ và tên không được để trống"
+                            class="w-full rounded-xl border-outline-variant bg-surface-container text-on-surface focus:border-primary focus:ring-primary px-4 py-3"
+                            id="modal-name" placeholder="Nhập họ và tên của bạn" type="text" />
+                    </div>
+                    <div>
+                        <label class="block text-on-surface-variant font-label-bold mb-2 text-sm" for="modal-phone">Số điện
+                            thoại</label>
+                        <input name="phone" required pattern="(03|05|07|08|09)[0-9]{8}" title="Vui lòng nhập đúng số điện thoại"
+                            class="w-full rounded-xl border-outline-variant bg-surface-container text-on-surface focus:border-primary focus:ring-primary px-4 py-3"
+                            id="modal-phone" placeholder="Nhập số điện thoại liên hệ" type="tel" />
+                    </div>
+                    <div>
+                        <label class="block text-on-surface-variant font-label-bold mb-2 text-sm" for="modal-email">Địa chỉ email (tùy chọn)</label>
+                        <input name="email"
+                            class="w-full rounded-xl border-outline-variant bg-surface-container text-on-surface focus:border-primary focus:ring-primary px-4 py-3"
+                            id="modal-email" placeholder="Nhập email của bạn" type="email" />
+                    </div>
+                    <div>
+                        <label class="block text-on-surface-variant font-label-bold mb-2 text-sm" for="modal-program">Chương
+                            trình quan tâm</label>
+                        <div class="relative custom-dropdown" tabindex="0">
+                            <input type="text" name="program" class="hidden-input absolute inset-0 opacity-0 pointer-events-none -z-10" required />
+                            <div class="w-full rounded-xl border-outline-variant bg-surface-container text-on-surface focus:border-primary focus:ring-primary px-4 py-3 cursor-pointer dropdown-trigger flex items-center justify-between">
+                                <span class="selected-text truncate text-on-surface-variant">Vui lòng chọn...</span>
+                            </div>
+                            <span class="absolute right-4 top-1/2 -translate-y-1/2 text-on-surface-variant pointer-events-none material-symbols-outlined dropdown-icon transition-transform duration-200">expand_more</span>
+                            
+                            <!-- Options menu -->
+                            <div class="absolute top-full left-0 w-full mt-1 bg-surface rounded-xl shadow-xl border border-outline-variant/30 overflow-y-auto max-h-60 z-[100] opacity-0 invisible translate-y-2 transition-all duration-200 dropdown-menu">
+                                <ul class="p-1.5 space-y-0.5">
+                                    <li class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary cursor-pointer transition-colors text-sm font-medium option-item" data-value="ireland">Ireland</li>
+                                    <li class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary cursor-pointer transition-colors text-sm font-medium option-item" data-value="canada">Canada</li>
+                                    <li class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary cursor-pointer transition-colors text-sm font-medium option-item" data-value="my">Mỹ</li>
+                                    <li class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary cursor-pointer transition-colors text-sm font-medium option-item" data-value="duc">Đức</li>
+                                    <li class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary cursor-pointer transition-colors text-sm font-medium option-item" data-value="litva">Litva</li>
+                                    <li class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary cursor-pointer transition-colors text-sm font-medium option-item" data-value="bodaonha">Bồ Đào Nha</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-on-surface-variant font-label-bold mb-2 text-sm" for="modal-message">Lời nhắn / Yêu cầu đặc biệt (tùy chọn)</label>
+                        <textarea name="notes" rows="3"
+                            class="w-full rounded-xl border-outline-variant bg-surface-container text-on-surface focus:border-primary focus:ring-primary px-4 py-3 resize-none"
+                            id="modal-message" placeholder="Bạn cần chúng tôi hỗ trợ thêm điều gì?"></textarea>
+                    </div>
+                    <button
+                        class="flex items-center justify-center gap-2 w-full bg-secondary text-on-primary py-4 rounded-xl font-bold text-lg hover:bg-secondary-container hover:text-on-secondary-container transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1 mt-4"
+                        type="submit">
+                        GỬI YÊU CẦU NGAY
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>

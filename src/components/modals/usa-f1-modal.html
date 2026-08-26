@@ -1,0 +1,120 @@
+    <!-- USA F1 Modal -->
+    <div id="usaF1Modal"
+        class="fixed inset-0 z-[100] hidden items-center justify-center bg-ink-black/60 backdrop-blur-sm p-4 opacity-0 transition-opacity duration-300">
+        <div class="bg-surface-container-lowest rounded-3xl w-full max-w-4xl max-h-[90vh] overflow-y-auto shadow-2xl transform scale-95 transition-transform duration-300"
+            id="usaF1ModalContent">
+            <div
+                class="sticky top-0 bg-surface-container-lowest border-b border-outline-variant p-6 flex justify-between items-center z-10">
+                <div>
+                    <h3 class="font-headline-md text-primary font-bold text-xl md:text-2xl">CHI PHÍ CHUYỂN DIỆN J-1 &rarr; F-1</h3>
+                    <p class="text-secondary font-bold text-sm md:text-base uppercase">Dự kiến chi phí Du học Hoa Kỳ</p>
+                </div>
+                <button onclick="closeModal('usaF1Modal')"
+                    class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container-high text-on-surface-variant transition-colors">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+            </div>
+            <div class="p-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Phí chính phủ -->
+                    <div class="rounded-xl border border-outline-variant overflow-hidden">
+                        <div class="bg-primary text-on-primary p-4 flex items-center gap-3">
+                            <span class="material-symbols-outlined text-3xl">account_balance</span>
+                            <h4 class="font-bold text-lg">1. Phí chính phủ Hoa Kỳ</h4>
+                        </div>
+                        <div class="p-4 space-y-4">
+                            <div class="flex justify-between items-center border-b border-outline-variant/50 pb-4">
+                                <div>
+                                    <p class="font-bold text-on-surface">Lệ phí xin Visa F-1</p>
+                                    <p class="text-sm text-on-surface-variant">(Nếu xin visa ngoài Hoa Kỳ)</p>
+                                </div>
+                                <div class="text-error font-bold text-xl">185 USD</div>
+                            </div>
+                            <div class="flex justify-between items-center border-b border-outline-variant/50 pb-4">
+                                <div>
+                                    <p class="font-bold text-on-surface">Phí SEVIS I-901 (F-1)</p>
+                                </div>
+                                <div class="text-error font-bold text-xl">350 USD</div>
+                            </div>
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <p class="font-bold text-on-surface">Phí USCIS I-539</p>
+                                    <p class="text-sm text-on-surface-variant">(Đổi diện trong Hoa Kỳ)</p>
+                                </div>
+                                <div class="text-right">
+                                    <div class="mb-1"><span class="text-sm text-on-surface-variant">Nộp Online:</span> <span class="text-error font-bold text-lg">420 USD</span></div>
+                                    <div><span class="text-sm text-on-surface-variant">Hồ sơ Giấy:</span> <span class="text-error font-bold text-lg">470 USD</span></div>
+                                </div>
+                            </div>
+                            <div class="bg-secondary-container text-on-secondary-container p-3 rounded-lg flex gap-3 text-sm mt-4">
+                                <span class="material-symbols-outlined text-secondary">notifications_active</span>
+                                <p><strong>LƯU Ý:</strong> Chi phí của Chính phủ Hoa Kỳ có thể thay đổi theo quy định tại thời điểm nộp hồ sơ.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Phí dịch vụ -->
+                    <div class="rounded-xl border border-outline-variant overflow-hidden">
+                        <div class="bg-error text-on-error p-4 flex items-center gap-3">
+                            <span class="material-symbols-outlined text-3xl">support_agent</span>
+                            <h4 class="font-bold text-lg">2. Chi phí dịch vụ (Nếu có)</h4>
+                        </div>
+                        <div class="p-4">
+                            <ul class="space-y-4">
+                                <li class="flex justify-between items-center border-b border-outline-variant/50 pb-3">
+                                    <div class="flex items-center gap-3">
+                                        <span class="material-symbols-outlined text-secondary">drafts</span>
+                                        <span class="font-bold text-on-surface">Hỗ trợ xin thư mời nhập học (I-20)</span>
+                                    </div>
+                                    <span class="material-symbols-outlined text-success-green">check_circle</span>
+                                </li>
+                                <li class="flex justify-between items-center border-b border-outline-variant/50 pb-3">
+                                    <div class="flex items-center gap-3">
+                                        <span class="material-symbols-outlined text-secondary">school</span>
+                                        <span class="font-bold text-on-surface">Hướng dẫn chọn trường</span>
+                                    </div>
+                                    <span class="material-symbols-outlined text-success-green">check_circle</span>
+                                </li>
+                                <li class="flex justify-between items-center border-b border-outline-variant/50 pb-3">
+                                    <div class="flex items-center gap-3">
+                                        <span class="material-symbols-outlined text-secondary">folder_open</span>
+                                        <span class="font-bold text-on-surface">Chuẩn bị hồ sơ</span>
+                                    </div>
+                                    <span class="material-symbols-outlined text-success-green">check_circle</span>
+                                </li>
+                                <li class="flex justify-between items-center border-b border-outline-variant/50 pb-3">
+                                    <div class="flex items-center gap-3">
+                                        <span class="material-symbols-outlined text-secondary">assignment</span>
+                                        <span class="font-bold text-on-surface">Hỗ trợ hoàn thiện hồ sơ USCIS / xin visa</span>
+                                    </div>
+                                    <span class="material-symbols-outlined text-success-green">check_circle</span>
+                                </li>
+                                <li class="flex justify-between items-center">
+                                    <div class="flex items-center gap-3">
+                                        <span class="material-symbols-outlined text-secondary">record_voice_over</span>
+                                        <span class="font-bold text-on-surface">Luyện phỏng vấn visa F-1</span>
+                                    </div>
+                                    <span class="material-symbols-outlined text-success-green">check_circle</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Guarantee bar -->
+                <div class="mt-6 flex flex-wrap md:flex-nowrap justify-between items-center gap-4 bg-surface-container-low p-4 rounded-xl border border-outline-variant">
+                    <div class="flex items-center gap-2"><span class="material-symbols-outlined text-success-green text-2xl">verified_user</span> <div><p class="font-bold text-sm">Hợp pháp</p><p class="text-xs text-on-surface-variant">Theo quy định Hoa Kỳ</p></div></div>
+                    <div class="flex items-center gap-2"><span class="material-symbols-outlined text-success-green text-2xl">shield</span> <div><p class="font-bold text-sm">An toàn</p><p class="text-xs text-on-surface-variant">Quy trình rõ ràng</p></div></div>
+                    <div class="flex items-center gap-2"><span class="material-symbols-outlined text-success-green text-2xl">task_alt</span> <div><p class="font-bold text-sm">Hiệu quả</p><p class="text-xs text-on-surface-variant">Tối ưu chi phí</p></div></div>
+                    <div class="flex items-center gap-2"><span class="material-symbols-outlined text-success-green text-2xl">handshake</span> <div><p class="font-bold text-sm">Đồng hành</p><p class="text-xs text-on-surface-variant">Hỗ trợ tận tâm</p></div></div>
+                </div>
+            </div>
+            <div
+                class="p-6 border-t border-outline-variant bg-surface-container-low flex justify-end gap-4 rounded-b-3xl">
+                <button onclick="closeModal('usaF1Modal')"
+                    class="px-6 py-2.5 rounded-full font-label-bold text-primary hover:bg-primary/10 transition-colors border border-outline-variant bg-surface-container-lowest">Đóng</button>
+                <button onclick="closeModal('usaF1Modal'); setTimeout(() => openModal('consultModal'), 300)"
+                    class="bg-primary text-on-primary px-8 py-2.5 rounded-full font-label-bold hover:bg-primary-container hover:text-on-primary-container transition-colors shadow-sm">Đăng
+                    Ký Tư Vấn</button>
+            </div>
+        </div>
+    </div>

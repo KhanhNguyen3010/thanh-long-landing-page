@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth scroll-pt-20">
+
+{{> head }}
+
+<body class="bg-background text-on-background font-body-md antialiased min-h-screen flex flex-col">
+    {{> header }}
+
+    <main
+        class="flex-grow flex flex-col justify-start md:justify-center relative overflow-hidden bg-surface md:bg-surface-container h-auto md:min-h-[85vh] min-h-0">
+        <!-- Hero Background -->
+        <div class="absolute top-0 left-0 w-full h-[80vw] sm:h-[60vw] md:h-full z-0 bg-cover bg-center bg-no-repeat rounded-b-[2rem] md:rounded-none overflow-hidden"
+            style="background-image: url('/public/assets/img/camon.png')">
+        </div>
+        <section
+            class="relative z-10 w-full text-center px-margin-mobile md:px-gutter max-w-container-max mx-auto mt-[65vw] sm:mt-[45vw] md:mt-20 pb-12 md:pb-20 pt-0">
+
+            <!-- Glass panel to make text readable over the background -->
+            <div
+                class="bg-white/20 md:bg-white/20 backdrop-blur-md md:backdrop-blur-md p-6 sm:p-8 md:p-10 rounded-[2rem] md:rounded-[2.5rem] shadow-xl border border-white/30 md:border-white/30 max-w-3xl w-full mx-auto">
+                <h1
+                    class="font-display-lg-mobile text-[40px] leading-tight text-primary mb-stack-md font-bold">
+                    Cảm ơn bạn!</h1>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    Chúng tôi đã nhận được thông tin đăng ký của bạn. Chuyên viên tư vấn của Thanh Long XNK sẽ liên hệ
+                    với bạn trong vòng 24 giờ tới.
+                </p>
+                <a href="/"
+                    class="mt-10 flex justify-center w-full md:w-auto md:inline-flex px-8 py-4 bg-secondary text-white rounded-full font-label-bold hover:bg-secondary-container hover:text-on-secondary-container transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1 items-center gap-2">
+                    Trở về trang chủ
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FAQ Section -->
+    <div class="bg-surface">
+        {{> sections/faq }}
+    </div>
+
+    {{> footer }}
+
+    {{> floating-actions }}
+
+    <script type="module" src="/src/js/main.js"></script>
+</body>
+
+</html>

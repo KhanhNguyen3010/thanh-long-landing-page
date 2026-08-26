@@ -1,0 +1,123 @@
+    <!-- USA Job Modal -->
+    <div id="usaModal"
+        class="fixed inset-0 z-[100] hidden items-center justify-center bg-ink-black/60 backdrop-blur-sm p-4 opacity-0 transition-opacity duration-300">
+        <div class="bg-surface-container-lowest rounded-3xl w-full max-w-4xl max-h-[90vh] overflow-y-auto shadow-2xl transform scale-95 transition-transform duration-300"
+            id="usaModalContent">
+            <div
+                class="sticky top-0 bg-surface-container-lowest border-b border-outline-variant p-6 flex justify-between items-center z-10">
+                <div>
+                    <h3 class="font-headline-md text-primary font-bold text-xl md:text-2xl">QUY TRÌNH THAM GIA CHƯƠNG TRÌNH</h3>
+                    <p class="text-secondary font-bold text-sm md:text-base uppercase">Định cư Mỹ diện lao động phổ
+                        thông (EB-3)</p>
+                </div>
+                <button onclick="closeModal('usaModal')"
+                    class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container-high text-on-surface-variant transition-colors">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+            </div>
+            <div class="p-6">
+                <div class="overflow-x-auto rounded-xl border border-outline-variant">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="bg-success-green-light border-b border-outline-variant">
+                                <th
+                                    class="p-3 font-bold text-tertiary-container w-16 text-center border-r border-outline-variant">
+                                    Bước</th>
+                                <th class="p-3 font-bold text-tertiary-container w-1/3 border-r border-outline-variant">
+                                    Giai đoạn</th>
+                                <th class="p-3 font-bold text-tertiary-container">Chi tiết xử lý</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-on-surface-variant text-sm md:text-base divide-y divide-outline-variant">
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant text-2xl text-primary/50">1</td>
+                                <td class="p-3 font-bold border-r border-outline-variant text-primary">NỘP HỒ SƠ ĐĂNG KÝ</td>
+                                <td class="p-3">
+                                    <ul class="list-disc list-inside space-y-1">
+                                        <li>Tiếp nhận thông tin</li>
+                                        <li>Đánh giá điều kiện tham gia</li>
+                                        <li>Tư vấn lộ trình EB-3</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant text-2xl text-primary/50">2</td>
+                                <td class="p-3 font-bold border-r border-outline-variant text-primary">KÝ HỢP ĐỒNG</td>
+                                <td class="p-3">
+                                    <ul class="list-disc list-inside space-y-1">
+                                        <li>Ký hợp đồng dịch vụ</li>
+                                        <li>Hướng dẫn chuẩn bị hồ sơ</li>
+                                        <li>Hoàn thiện giấy tờ cá nhân</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant text-2xl text-primary/50">3</td>
+                                <td class="p-3 font-bold border-r border-outline-variant text-primary">CHỌN VIỆC (JOB OFFER)</td>
+                                <td class="p-3">
+                                    <ul class="list-disc list-inside space-y-1">
+                                        <li>Lựa chọn công việc phù hợp</li>
+                                        <li>Nhà tuyển dụng Mỹ phát hành Job Offer</li>
+                                        <li>Xác nhận vị trí làm việc</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant text-2xl text-primary/50">4</td>
+                                <td class="p-3 font-bold border-r border-outline-variant text-primary">PERM<br><span class="text-xs text-on-surface-variant font-normal">CHỨNG NHẬN LAO ĐỘNG</span></td>
+                                <td class="p-3">
+                                    <p class="font-bold text-error mb-1">BỘ LAO ĐỘNG HOA KỲ (U.S. Department of Labor)</p>
+                                    <p>Xác nhận doanh nghiệp đã tuyển dụng hợp lệ và không có lao động Mỹ phù hợp cho vị trí đó.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant text-2xl text-primary/50">5</td>
+                                <td class="p-3 font-bold border-r border-outline-variant text-primary">I-140<br><span class="text-xs text-on-surface-variant font-normal">CHẤP THUẬN BẢO LÃNH</span></td>
+                                <td class="p-3">
+                                    <p class="font-bold text-error mb-1">USCIS (U.S. Citizenship and Immigration Services)</p>
+                                    <p>Xác nhận doanh nghiệp đủ điều kiện bảo lãnh và người lao động đủ điều kiện theo diện EB-3.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant text-2xl text-primary/50">6</td>
+                                <td class="p-3 font-bold border-r border-outline-variant text-primary">DS-260<br><span class="text-xs text-on-surface-variant font-normal">ĐƠN XIN VISA ĐỊNH CƯ</span></td>
+                                <td class="p-3">
+                                    <p class="font-bold text-error mb-1">NVC (National Visa Center) &amp; BỘ NGOẠI GIAO HOA KỲ</p>
+                                    <p>Hoàn thiện hồ sơ lãnh sự và chuẩn bị lịch phỏng vấn.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant text-2xl text-primary/50">7</td>
+                                <td class="p-3 font-bold border-r border-outline-variant text-primary">PHỎNG VẤN VISA EB-3<br><span class="text-xs text-on-surface-variant font-normal">XÉT CẤP VISA EB-3</span></td>
+                                <td class="p-3">
+                                    <p class="font-bold text-error mb-1">TỔNG LÃNH SỰ QUÁN HOA KỲ TẠI TP.HCM</p>
+                                    <p>Xét duyệt và cấp visa định cư EB-3.</p>
+                                </td>
+                            </tr>
+                            <tr class="bg-primary/5">
+                                <td class="p-3 font-bold text-center border-r border-outline-variant"><span class="material-symbols-outlined text-primary text-2xl">flight_takeoff</span></td>
+                                <td class="p-3 font-bold border-r border-outline-variant text-primary uppercase">Bước cuối</td>
+                                <td class="p-3 font-bold">
+                                    <div class="flex items-center gap-2 flex-wrap">
+                                        <span class="text-on-surface">NHẬN VISA</span>
+                                        <span class="material-symbols-outlined text-sm text-on-surface-variant">arrow_forward</span>
+                                        <span class="text-on-surface">BAY SANG MỸ</span>
+                                        <span class="material-symbols-outlined text-sm text-on-surface-variant">arrow_forward</span>
+                                        <span class="text-success-green px-2 py-1 bg-success-green-light/50 rounded flex items-center gap-1"><span class="material-symbols-outlined text-sm">verified</span> NHẬN THẺ XANH (GREEN CARD)</span>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div
+                class="p-6 border-t border-outline-variant bg-surface-container-low flex justify-end gap-4 rounded-b-3xl">
+                <button onclick="closeModal('usaModal')"
+                    class="px-6 py-2.5 rounded-full font-label-bold text-primary hover:bg-primary/10 transition-colors border border-outline-variant bg-surface-container-lowest">Đóng</button>
+                <button onclick="closeModal('usaModal'); setTimeout(() => openModal('consultModal'), 300)"
+                    class="bg-primary text-on-primary px-8 py-2.5 rounded-full font-label-bold hover:bg-primary-container hover:text-on-primary-container transition-colors shadow-sm">Đăng
+                    Ký Tư Vấn</button>
+            </div>
+        </div>
+    </div>

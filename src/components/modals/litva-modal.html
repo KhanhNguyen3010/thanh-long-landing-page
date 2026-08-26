@@ -1,0 +1,128 @@
+    <!-- Litva Job Modal -->
+    <div id="litvaModal"
+        class="fixed inset-0 z-[100] hidden items-center justify-center bg-ink-black/60 backdrop-blur-sm p-4 opacity-0 transition-opacity duration-300">
+        <div class="bg-surface-container-lowest rounded-3xl w-full max-w-4xl max-h-[90vh] overflow-y-auto shadow-2xl transform scale-95 transition-transform duration-300"
+            id="litvaModalContent">
+            <div
+                class="sticky top-0 bg-surface-container-lowest border-b border-outline-variant p-6 flex justify-between items-center z-10">
+                <div>
+                    <h3 class="font-headline-md text-primary font-bold text-xl md:text-2xl">THÔNG BÁO ĐƠN HÀNG</h3>
+                    <p class="text-secondary font-bold text-sm md:text-base uppercase">Nhân viên đóng gói (Packer) tại
+                        Litva</p>
+                </div>
+                <button onclick="closeModal('litvaModal')"
+                    class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container-high text-on-surface-variant transition-colors">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+            </div>
+            <div class="p-6">
+                <div class="overflow-x-auto rounded-xl border border-outline-variant">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="bg-success-green-light border-b border-outline-variant">
+                                <th
+                                    class="p-3 font-bold text-tertiary-container w-16 text-center border-r border-outline-variant">
+                                    Stt</th>
+                                <th class="p-3 font-bold text-tertiary-container w-1/3 border-r border-outline-variant">
+                                    Hạng mục</th>
+                                <th class="p-3 font-bold text-tertiary-container">Nội dung</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-on-surface-variant text-sm md:text-base divide-y divide-outline-variant">
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">1</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Vị trí:</td>
+                                <td class="p-3 font-bold text-primary">PACKER (OPERATOR ĐÓNG GÓI)</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">2</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Làm việc tại:</td>
+                                <td class="p-3 font-bold text-primary">LITVA (CHÂU ÂU)</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">3</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Thu nhập:</td>
+                                <td class="p-3 font-bold text-error">Từ 900 EUR NET</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">4</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Cam kết thời gian:</td>
+                                <td class="p-3 font-bold text-error">Sau khi nộp hồ sơ SAU 2 TUẦN có giấy phép lao động và lịch lăn tay</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">5</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Số lượng tuyển:</td>
+                                <td class="p-3 font-bold">5 NAM/NỮ</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">6</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Mô tả công việc:</td>
+                                <td class="p-3">
+                                    <ul class="list-disc list-inside space-y-1">
+                                        <li>Đóng gói các sản phẩm, hàng hóa hoặc vật liệu vào thùng carton, túi, hộp theo quy định.</li>
+                                        <li>Kiểm tra nhãn mác, hạn sử dụng và chất lượng bao bì.</li>
+                                        <li>Dán, quấn màng co, niêm phong thùng bằng tay hoặc bằng máy đơn giản.</li>
+                                        <li>Phân loại, kiểm đếm và chuẩn bị hàng hóa cho vận chuyển.</li>
+                                        <li>Giữ khu vực làm việc sạch sẽ, ngăn nắp.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant" rowspan="4">7</td>
+                                <td class="p-3 font-bold border-r border-outline-variant border-b border-outline-variant/50">1. Trình độ & Kỹ năng:</td>
+                                <td class="p-3 border-b border-outline-variant/50">Không yêu cầu trình độ học vấn hoặc kinh nghiệm (không yêu cầu tay nghề). Có khả năng làm việc tay chân lặp đi lặp lại, nhanh nhẹn, cẩn thận.</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold border-r border-outline-variant border-b border-outline-variant/50">2. Độ tuổi & Giới tính:</td>
+                                <td class="p-3 font-bold text-error border-b border-outline-variant/50">Từ 18 tuổi trở lên, Nam/Nữ</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold border-r border-outline-variant border-b border-outline-variant/50">3. Sức khỏe:</td>
+                                <td class="p-3 border-b border-outline-variant/50">Sức khỏe tốt, chịu được áp lực công việc.</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold border-r border-outline-variant">4. Phẩm chất:</td>
+                                <td class="p-3">Có trách nhiệm, chăm chỉ, kỷ luật và mong muốn làm việc lâu dài.</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">8</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Thông tin Hợp đồng:</td>
+                                <td class="p-3">
+                                    <ul class="list-disc list-inside space-y-1">
+                                        <li><strong>Loại hợp đồng:</strong> Toàn thời gian</li>
+                                        <li><strong>Thời hạn:</strong> 1 năm (có thể gia hạn)</li>
+                                        <li><strong>Ngày làm việc:</strong> Thứ 2 - Thứ 6 (5 ngày/tuần)</li>
+                                        <li><strong>Giờ làm việc:</strong> 168 giờ/tháng (có thể làm theo ca)</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">9</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Hồ sơ yêu cầu:</td>
+                                <td class="p-3">Hộ chiếu còn hạn, CV (Sơ yếu lý lịch), Lý lịch tư pháp số 2 (hợp pháp hóa lãnh sự), Giấy khám sức khỏe.</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">10</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Điều kiện sinh hoạt & Đi lại:</td>
+                                <td class="p-3">
+                                    <ul class="list-disc list-inside space-y-1">
+                                        <li><strong>Chỗ ở:</strong> Được chủ sử dụng cung cấp</li>
+                                        <li><strong>Đưa đón đi làm:</strong> Được chủ sử dụng cung cấp</li>
+                                        <li><strong>Ăn uống:</strong> Người lao động tự chi trả</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div
+                class="p-6 border-t border-outline-variant bg-surface-container-low flex justify-end gap-4 rounded-b-3xl">
+                <button onclick="closeModal('litvaModal')"
+                    class="px-6 py-2.5 rounded-full font-label-bold text-primary hover:bg-primary/10 transition-colors border border-outline-variant bg-surface-container-lowest">Đóng</button>
+                <button onclick="closeModal('litvaModal'); setTimeout(() => openModal('consultModal'), 300)"
+                    class="bg-primary text-on-primary px-8 py-2.5 rounded-full font-label-bold hover:bg-primary-container hover:text-on-primary-container transition-colors shadow-sm">Đăng
+                    Ký Tư Vấn</button>
+            </div>
+        </div>
+    </div>

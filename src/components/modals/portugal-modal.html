@@ -1,0 +1,101 @@
+    <!-- Portugal Job Modal -->
+    <div id="portugalModal"
+        class="fixed inset-0 z-[100] hidden items-center justify-center bg-ink-black/60 backdrop-blur-sm p-4 opacity-0 transition-opacity duration-300">
+        <div class="bg-surface-container-lowest rounded-3xl w-full max-w-4xl max-h-[90vh] overflow-y-auto shadow-2xl transform scale-95 transition-transform duration-300"
+            id="portugalModalContent">
+            <div
+                class="sticky top-0 bg-surface-container-lowest border-b border-outline-variant p-6 flex justify-between items-center z-10">
+                <div>
+                    <h3 class="font-headline-md text-primary font-bold text-xl md:text-2xl">THÔNG BÁO TUYỂN DỤNG</h3>
+                    <p class="text-secondary font-bold text-sm md:text-base uppercase">10 Nữ Dọn Dẹp Khách Sạn Tại Bồ Đào Nha</p>
+                </div>
+                <button onclick="closeModal('portugalModal')"
+                    class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container-high text-on-surface-variant transition-colors">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+            </div>
+            <div class="p-6">
+                <div class="overflow-x-auto rounded-xl border border-outline-variant">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="bg-success-green-light border-b border-outline-variant">
+                                <th
+                                    class="p-3 font-bold text-tertiary-container w-16 text-center border-r border-outline-variant">
+                                    Stt</th>
+                                <th class="p-3 font-bold text-tertiary-container w-1/3 border-r border-outline-variant">
+                                    Hạng mục</th>
+                                <th class="p-3 font-bold text-tertiary-container">Nội dung</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-on-surface-variant text-sm md:text-base divide-y divide-outline-variant">
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">1</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Vị trí công việc:</td>
+                                <td class="p-3 font-bold text-primary">NỮ DỌN DẸP KHÁCH SẠN</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">2</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Địa điểm làm việc:</td>
+                                <td class="p-3 font-bold text-primary">BỒ ĐÀO NHA</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">3</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Thu nhập dự kiến:</td>
+                                <td class="p-3 font-bold text-error">40 - 50 TRIỆU/THÁNG<br><span class="text-sm text-on-surface-variant font-normal">(Đã trừ chi phí: Ăn ở, bảo hiểm, thuế...)</span></td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">4</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Yêu cầu ứng viên:</td>
+                                <td class="p-3">
+                                    <ul class="list-disc list-inside space-y-1">
+                                        <li>Nữ, tuổi từ 18 - 45</li>
+                                        <li>Sức khỏe tốt, chăm chỉ, thật thà</li>
+                                        <li>Không yêu cầu kinh nghiệm (sẽ được đào tạo)</li>
+                                        <li>Ưu tiên ứng viên có kinh nghiệm dọn dẹp</li>
+                                        <li>Có tinh thần trách nhiệm, hòa đồng</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">5</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Quyền lợi:</td>
+                                <td class="p-3">
+                                    <ul class="list-disc list-inside space-y-1">
+                                        <li>Thu nhập ổn định</li>
+                                        <li>Hợp đồng lao động rõ ràng, lâu dài</li>
+                                        <li>Được hỗ trợ chỗ ở, ăn uống</li>
+                                        <li>Được đóng bảo hiểm đầy đủ</li>
+                                        <li>Môi trường làm việc chuyên nghiệp, an toàn</li>
+                                        <li>Cơ hội làm thêm, tăng thu nhập</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="bg-primary/5">
+                                <td class="p-3 font-bold text-center border-r border-outline-variant"><span class="material-symbols-outlined text-primary text-2xl">timeline</span></td>
+                                <td class="p-3 font-bold border-r border-outline-variant text-primary uppercase">Quy trình tham gia:</td>
+                                <td class="p-3 font-bold">
+                                    <div class="flex items-center gap-2 flex-wrap">
+                                        <span class="text-on-surface">ĐĂNG KÝ HỒ SƠ</span>
+                                        <span class="material-symbols-outlined text-sm text-on-surface-variant">arrow_forward</span>
+                                        <span class="text-on-surface">PHỎNG VẤN ONLINE</span>
+                                        <span class="material-symbols-outlined text-sm text-on-surface-variant">arrow_forward</span>
+                                        <span class="text-on-surface">KÝ HỢP ĐỒNG &amp; HOÀN THIỆN HỒ SƠ</span>
+                                        <span class="material-symbols-outlined text-sm text-on-surface-variant">arrow_forward</span>
+                                        <span class="text-success-green px-2 py-1 bg-success-green-light/50 rounded flex items-center gap-1"><span class="material-symbols-outlined text-sm">flight_takeoff</span> XUẤT CẢNH SANG BỒ ĐÀO NHA</span>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div
+                class="p-6 border-t border-outline-variant bg-surface-container-low flex justify-end gap-4 rounded-b-3xl">
+                <button onclick="closeModal('portugalModal')"
+                    class="px-6 py-2.5 rounded-full font-label-bold text-primary hover:bg-primary/10 transition-colors border border-outline-variant bg-surface-container-lowest">Đóng</button>
+                <button onclick="closeModal('portugalModal'); setTimeout(() => openModal('consultModal'), 300)"
+                    class="bg-primary text-on-primary px-8 py-2.5 rounded-full font-label-bold hover:bg-primary-container hover:text-on-primary-container transition-colors shadow-sm">Đăng
+                    Ký Tư Vấn</button>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,1665 @@
+<!DOCTYPE html>
+
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Công ty Thanh Long - Xuất Khẩu Lao Động &amp; Du Học</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&amp;family=Inter:wght@400;600&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-dim": "#d8dadc",
+                        "inverse-primary": "#a9c7ff",
+                        "on-primary": "#ffffff",
+                        "secondary-fixed": "#ffdcc5",
+                        "success-green-light": "#EBF7ED",
+                        "secondary": "#944a00",
+                        "tertiary-fixed-dim": "#61de8a",
+                        "on-primary-fixed": "#001b3d",
+                        "tertiary": "#003216",
+                        "on-primary-fixed-variant": "#0e4686",
+                        "outline": "#737781",
+                        "on-secondary-container": "#663100",
+                        "surface-container-highest": "#e0e3e5",
+                        "on-error": "#ffffff",
+                        "on-background": "#191c1e",
+                        "surface-container-high": "#e6e8ea",
+                        "inverse-surface": "#2d3133",
+                        "surface-variant": "#e0e3e5",
+                        "secondary-container": "#fc8f34",
+                        "primary-container": "#004080",
+                        "primary-fixed-dim": "#a9c7ff",
+                        "primary-fixed": "#d6e3ff",
+                        "on-error-container": "#93000a",
+                        "on-secondary-fixed": "#301400",
+                        "surface-container-low": "#f2f4f6",
+                        "error-container": "#ffdad6",
+                        "on-surface-variant": "#424750",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-container": "#004b24",
+                        "background": "#f7f9fb",
+                        "on-secondary-fixed-variant": "#713700",
+                        "error": "#ba1a1a",
+                        "on-tertiary-fixed": "#00210c",
+                        "on-surface": "#191c1e",
+                        "surface-bright": "#f7f9fb",
+                        "amber-soft": "#FFF4E6",
+                        "on-secondary": "#ffffff",
+                        "surface-container": "#eceef0",
+                        "on-tertiary-fixed-variant": "#005228",
+                        "secondary-fixed-dim": "#ffb783",
+                        "outline-variant": "#c3c6d2",
+                        "surface": "#f7f9fb",
+                        "tertiary-fixed": "#7efba4",
+                        "surface-tint": "#305ea0",
+                        "surface-container-lowest": "#ffffff",
+                        "on-tertiary-container": "#42c372",
+                        "ink-black": "#0F172A",
+                        "slate-gray": "#64748B",
+                        "inverse-on-surface": "#eff1f3",
+                        "on-primary-container": "#83aef5",
+                        "primary": "#004080",
+                        "trust-blue-dark": "#002B56"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "stack-lg": "32px",
+                        "stack-md": "16px",
+                        "stack-sm": "8px",
+                        "margin-mobile": "16px",
+                        "gutter": "24px",
+                        "section-padding": "80px",
+                        "container-max": "1200px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Inter"],
+                        "body-lg": ["Inter"],
+                        "headline-md": ["Montserrat"],
+                        "label-bold": ["Inter"],
+                        "caption": ["Inter"],
+                        "display-lg": ["Montserrat"],
+                        "headline-sm": ["Montserrat"],
+                        "display-lg-mobile": ["Montserrat"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "40px", "fontWeight": "600" }],
+                        "label-bold": ["14px", { "lineHeight": "20px", "fontWeight": "600" }],
+                        "caption": ["12px", { "lineHeight": "16px", "fontWeight": "400" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "headline-sm": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "display-lg-mobile": ["32px", { "lineHeight": "40px", "fontWeight": "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-background text-on-background font-body-md antialiased">
+    <!-- Header Navigation -->
+    <header
+        class="bg-surface-container-lowest/90 backdrop-blur-md text-primary font-headline-sm text-headline-sm docked full-width top-0 sticky border-b border-outline-variant shadow-sm z-50">
+        <div
+            class="flex justify-between items-center w-full px-margin-mobile md:px-gutter max-w-container-max mx-auto h-20">
+            <div class="flex items-center gap-2">
+                <img alt="Thanh Long Logo" class="h-12 w-auto"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTIb1kIb6SEawijvrHf9IzUyubkEPfSNhKlCPJ__v6ANo_KhVIiPavAq1sE2pWOSRBzLG_PURP7pwvWtoG76wxNKsampm6LQJ1R7Xvox5DMrYQ1wdJcrvN2AvNDt9EoU3WIHKZEHh8ouNpyzSrHCqpZOr89_Fp12jymoXeutfiKxjRxfiC8O0QQQ1kBmbfmOx6HDs-W2cZweSpsvpGAHRf0shVrVEmvY4VwWiD_-EMtr2SxPqhIrXopP2eopRq45SfpVw" />
+            </div>
+            <nav class="hidden md:flex gap-8">
+                <a class="text-primary font-label-bold text-label-bold hover:text-secondary transition-colors"
+                    href="#">Trang chủ</a>
+                <a class="text-on-surface-variant font-label-bold text-label-bold hover:text-primary transition-colors"
+                    href="#about">Về chúng tôi</a>
+                <a class="text-on-surface-variant font-label-bold text-label-bold hover:text-primary transition-colors"
+                    href="#programs">Chương trình</a>
+                <a class="text-on-surface-variant font-label-bold text-label-bold hover:text-primary transition-colors"
+                    href="#workflow">Quy trình</a>
+                <a class="text-on-surface-variant font-label-bold text-label-bold hover:text-primary transition-colors"
+                    href="#gallery">Thư viện ảnh</a>
+                <a class="text-on-surface-variant font-label-bold text-label-bold hover:text-primary transition-colors"
+                    href="#faq">FAQ</a>
+            </nav>
+            <a class="hidden md:inline-flex bg-primary text-on-primary px-6 py-2.5 rounded-full font-label-bold hover:bg-primary-container transition-colors shadow-sm"
+                href="#contact">Tư vấn: 0962.581.175</a>
+            <button class="md:hidden text-primary">
+                <span class="material-symbols-outlined" data-icon="menu">menu</span>
+            </button>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="relative h-[80vh] flex items-center justify-center bg-surface-container">
+        <div class="absolute inset-0 z-0"
+            data-alt="A sweeping, dramatic drone shot of Lunenburg, Canada, featuring colorful historic houses nestled along a rocky coastline with a brilliant blue ocean. The autumn foliage is vibrant with deep reds and oranges. The sky is bright with soft clouds, conveying a sense of vast opportunity and international aspiration in a highly professional, modern light-mode aesthetic."
+            style="background-image: url('assets/img/Bản\ sao\ screen.png'); background-size: cover; background-position: center;">
+            <div class="absolute inset-0 bg-primary/50 mix-blend-multiply"></div>
+        </div>
+        <div
+            class="relative z-10 text-center px-margin-mobile md:px-gutter max-w-container-max mx-auto text-on-primary">
+            <h1
+                class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg font-bold mb-stack-md text-white drop-shadow-lg">
+                ĐỒNG HÀNH CÙNG BẠN VƯƠN TẦM THẾ GIỚI
+            </h1>
+            <p class="font-body-lg text-body-lg mb-stack-lg max-w-2xl mx-auto text-white/90 drop-shadow-md">
+                Chuyên gia tư vấn định cư, xuất khẩu lao động và du học uy tín hàng đầu.
+            </p>
+            <a class="inline-flex items-center gap-2 bg-secondary text-on-primary px-8 py-4 rounded-full font-label-bold text-lg hover:bg-secondary-container hover:text-on-secondary-container transition-transform hover:scale-105 shadow-xl"
+                href="#programs">
+                Khám phá lộ trình <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+            </a>
+        </div>
+    </section>
+    <!-- About Us Section -->
+    <section class="py-section-padding bg-surface" id="about">
+        <div class="px-margin-mobile md:px-gutter max-w-container-max mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-lg items-center">
+                <div class="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
+                    <img alt="Tư vấn xuất khẩu lao động" class="absolute inset-0 w-full h-full object-cover"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEsB3qouEpKSRdKhe_JxojbQwDEDz7h59VCqLfGieRlg1fkk_X0jiiLP2ucXoDuw_ikNgniDCzgK5--vbSqlRp8Y36uXqSqNRqzDQujDpph-uPdMTAR0qa84CRxTwoFUAV9_YDOgoAPnAt2knRkwEnR_lmvVasMOfDi1ZMbheN5DiYLjzD21ed8lzYufyG39I7JZ-liiUag1lxLvvRsDZUiv7tscP0xT_aY788rNX7ygEYfOAS--f7iU--p8UwJgu7XwQ" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent"></div>
+                    <div class="absolute bottom-8 left-8 right-8 text-on-primary">
+                        <h3 class="font-headline-sm text-headline-sm font-bold mb-2">Hơn 10 năm kinh nghiệm</h3>
+                        <p class="font-body-md opacity-90">Đồng hành cùng hàng ngàn lao động Việt</p>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <h2 class="font-headline-md text-headline-md text-primary font-bold">Về Chúng Tôi</h2>
+                    <div class="h-1 w-20 bg-secondary rounded-full"></div>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                        <strong class="text-primary font-bold">CÔNG TY TNHH TM &amp; TƯ VẤN XNK THANH LONG (MST:
+                            0901139180)</strong> tự hào là đơn vị uy tín trong lĩnh vực tư vấn du học và xuất khẩu lao
+                        động.
+                    </p>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                        Sứ mệnh của chúng tôi là định hướng tương lai bền vững cho lao động và học sinh Việt Nam, giúp
+                        các bạn vươn tầm thế giới với lộ trình minh bạch và hiệu quả.
+                    </p>
+                    <ul class="space-y-3 mt-4">
+                        <li class="flex items-center gap-3 text-on-surface">
+                            <span class="material-symbols-outlined text-secondary">verified</span>
+                            <span class="font-label-bold">Tư vấn tận tâm, chuyên nghiệp</span>
+                        </li>
+                        <li class="flex items-center gap-3 text-on-surface">
+                            <span class="material-symbols-outlined text-secondary">verified</span>
+                            <span class="font-label-bold">Thủ tục nhanh gọn, minh bạch</span>
+                        </li>
+                        <li class="flex items-center gap-3 text-on-surface">
+                            <span class="material-symbols-outlined text-secondary">verified</span>
+                            <span class="font-label-bold">Hỗ trợ trọn đời</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Core Services Section -->
+    <section class="py-section-padding bg-surface-container-low" id="programs">
+        <div class="px-margin-mobile md:px-gutter max-w-container-max mx-auto">
+            <div class="text-center mb-stack-lg">
+                <h2 class="font-headline-md text-headline-md text-primary mb-stack-sm font-bold">Chương Trình Trọng Điểm
+                </h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Cơ hội làm việc và định
+                    cư tại các quốc gia phát triển với lộ trình rõ ràng, minh bạch.</p>
+            </div>
+            <!-- Bento Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+                <!-- Canada -->
+                <div
+                    class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant hover:shadow-xl transition-all hover:-translate-y-1 flex flex-col h-full md:col-span-2 row-span-2 group">
+                    <div class="h-64 md:h-[400px] w-full relative overflow-hidden"
+                        data-alt="A stunning view of Lunenburg Canada with bright autumn leaves, colorful houses, and calm blue waters under a clear sky. The scene is majestic and inspiring, perfectly matching the premium, aspirational corporate modernism aesthetic of the overseas labor agency."
+                        style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCyss7vFf0C-zgsEj6HPHhR-dCSRNcJnJZ1VygxEMwzW0MliirHK4BGzGK4RJE45lXXT3Lwxhiv_tXo1E7WI5EdOlNHmnd2E7t56y6GTc5UfwomHXjqdk0hYgwIAjlaGIVCg9F6geTECYC_od_YedokeFBf7CRSAQc_5qSOoRAhux177BJQkVaR92BmaWXcOWymLH2YTPmhVg1fWKK0KEIMNOLl2eWpdNTDnNSM3V8n8P-FVXIAK92kLHlnHdfaFib8DYM'); background-size: cover; background-position: center;">
+                        <div class="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors"></div>
+                    </div>
+                    <div class="p-stack-lg flex-1 flex flex-col">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3
+                                class="font-headline-sm text-headline-sm text-primary font-bold flex items-center gap-2">
+                                Canada <span class="material-symbols-outlined text-secondary"
+                                    data-icon="star">star</span></h3>
+                            <span
+                                class="bg-primary-container text-on-primary-container px-3 py-1 rounded-full text-xs font-label-bold">HOT</span>
+                        </div>
+                        <p class="font-body-lg text-body-lg text-on-surface-variant mb-6 flex-1">Định cư và làm việc lâu
+                            dài với nhiều ngành nghề đa dạng, thu nhập hấp dẫn, môi trường sống chất lượng cao hàng đầu
+                            thế giới.</p>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary"
+                                    data-icon="check_circle">check_circle</span> Lương cao, phúc lợi tốt</li>
+                            <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary"
+                                    data-icon="check_circle">check_circle</span> Cơ hội mang theo gia đình</li>
+                            <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary"
+                                    data-icon="check_circle">check_circle</span> Lộ trình thẻ xanh rõ ràng</li>
+                        </ul>
+                        <div class="mt-auto flex gap-3">
+                            <button onclick="openModal('canadaModal')"
+                                class="flex-1 text-center w-full bg-surface-container text-primary py-3 rounded-xl font-label-bold hover:bg-primary/10 transition-colors shadow-sm border border-outline-variant">Chi
+                                Tiết</button>
+                            <a class="flex-1 block text-center w-full bg-primary text-on-primary py-3 rounded-xl font-label-bold hover:bg-primary-container hover:text-on-primary-container transition-colors shadow-md"
+                                href="#contact">Tư Vấn Ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ireland -->
+                <div
+                    class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant hover:shadow-lg transition-shadow flex flex-col h-full group">
+                    <div class="h-48 w-full overflow-hidden"
+                        data-alt="A smiling man holding freshly harvested mushrooms in a bright, clean, modern greenhouse in Ireland. The environment looks professional, safe, and welcoming, embodying the reliable and supportive tone of the labor export service."
+                        style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDIdsTmtuUvX-ohiIZXwicTpB-fjCI4JQJj51sR3TAU9P0dIkQsok2XUZYnmva7dpAwFDiGye9N197U9SU6zKSc7IQOlRina85QRJLXx_g1YQto4j5oQkeA5ktiuB3VO2Zo9BP5yxdIpLI2Y1NB1f7daD5MpwcWF7pncXX6YnhS3d1Y6xqIEN6MG1q0VAyrzrVEOXLgpH5B6_UGT7SmG0iyFWMVzWH9YJSQu6UPtkGJ6JGsAyTACESon6chN6Ia_csoNDg'); background-size: cover; background-position: center;">
+                    </div>
+                    <div class="p-stack-md flex-1 flex flex-col">
+                        <h3 class="font-headline-sm text-headline-sm text-primary mb-2 font-bold">Ireland</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-4 flex-1">Chương trình hái nấm
+                            thu nhập ổn định.</p>
+                        <div
+                            class="bg-success-green-light text-tertiary-container px-3 py-1 rounded inline-block text-sm font-label-bold mb-6 self-start">
+                            ~ 14 EUR/h</div>
+                        <div class="mt-auto flex gap-2">
+                            <button onclick="openModal('irelandModal')"
+                                class="flex-1 text-center w-full bg-surface-container text-primary py-2.5 rounded-lg font-label-bold hover:bg-primary/10 transition-colors shadow-sm border border-outline-variant">Chi
+                                Tiết</button>
+                            <a class="flex-1 block text-center w-full bg-primary text-on-primary py-2.5 rounded-lg font-label-bold hover:bg-primary-container hover:text-on-primary-container transition-colors shadow-md"
+                                href="#contact">Tư Vấn Ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- USA EB-3 -->
+                <div
+                    class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant hover:shadow-lg transition-shadow flex flex-col h-full group">
+                    <div class="h-48 w-full overflow-hidden"
+                        data-alt="A happy family standing in front of a subtly waving American flag and the Statue of Liberty. The lighting is bright and optimistic, reflecting a successful immigration journey and a stable, high-end corporate lifestyle aesthetic."
+                        style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAQlcQIYVrOBRXotY-5cTExeqfF5NoWgDjA2tvz2D0ozLOKxcgpPx8r6SBtfV6DX_6F6iNiAPFAkk1fuOjjiWDchAI6QQhIuWxG2u55GW_7j-RhmIAhS27w6kbeAue37nIg730NG8kalKrXIGW8MYx8D6RR6yqytX_v4HFATTvfw_SroSDM8OSZnDiz98YB2xQ7RtLpu_MWL4MDKANKedw73HZ6ikMMi-VEIYGvP5YQ1WwysoJn5wvkVzLaUD3-S_D2G38'); background-size: cover; background-position: center;">
+                    </div>
+                    <div class="p-stack-md flex-1 flex flex-col">
+                        <h3 class="font-headline-sm text-headline-sm text-primary mb-2 font-bold">USA (EB-3)</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-4 flex-1">Định cư Mỹ diện lao
+                            động phổ thông.</p>
+                        <ul class="space-y-1 mb-6 text-sm">
+                            <li class="flex items-center gap-2"><span
+                                    class="material-symbols-outlined text-secondary text-sm"
+                                    data-icon="done">done</span> Lấy thẻ xanh cho cả gia đình</li>
+                        </ul>
+                        <div class="mt-auto flex gap-2">
+                            <button onclick="openModal('usaModal')"
+                                class="flex-1 text-center w-full bg-surface-container text-primary py-2.5 rounded-lg font-label-bold hover:bg-primary/10 transition-colors shadow-sm border border-outline-variant">Chi
+                                Tiết</button>
+                            <a class="flex-1 block text-center w-full bg-primary text-on-primary py-2.5 rounded-lg font-label-bold hover:bg-primary-container hover:text-on-primary-container transition-colors shadow-md"
+                                href="#contact">Tư Vấn Ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Lithuania -->
+                <div
+                    class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant hover:shadow-lg transition-shadow flex flex-col h-full group">
+                    <div class="h-48 w-full overflow-hidden"
+                        data-alt="A professional young woman working diligently in a clean, modern logistics center in Lithuania, packing boxes with tape. The background shows a beautifully sunlit Lithuanian cityscape, conveying a safe, structured, and lucrative European work environment."
+                        style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC4IaqZYqSuKfxCYsJGtaIzV4Dp1gTj9mTlE_qN-4Yk1ih85u4foWuSh0JfBAGysQ5BP76okrhkjaCcZv2gj_bfEpfUKsNVMx4Mr9BK7pbrKFOXU2kxRluGlKM4kAiJmOfXn0mjJXLhcgMQAlrCUeAWrIyL2J_4JG9w8AGHV_2Mw6Ch3XEzq4Zv5L3PjBP7wFnbkVBGBl8dWSQ8SSTnei1XlQa_OwNWM-kTy6pehOKhnM8r9SfGXxWQdB0adyktpaMSYs4'); background-size: cover; background-position: center;">
+                    </div>
+                    <div class="p-stack-md flex-1 flex flex-col">
+                        <h3 class="font-headline-sm text-headline-sm text-primary mb-2 font-bold">Litva</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-4 flex-1">Nhân viên đóng gói
+                            (Packer) với thu nhập hấp dẫn.</p>
+                        <div
+                            class="bg-success-green-light text-tertiary-container px-3 py-1 rounded inline-block text-sm font-label-bold mb-6 self-start">
+                            Từ 900 EUR Net</div>
+                        <div class="mt-auto flex gap-2">
+                            <button onclick="openModal('litvaModal')"
+                                class="flex-1 text-center w-full bg-surface-container text-primary py-2.5 rounded-lg font-label-bold hover:bg-primary/10 transition-colors shadow-sm border border-outline-variant">Chi
+                                Tiết</button>
+                            <a class="flex-1 block text-center w-full bg-primary text-on-primary py-2.5 rounded-lg font-label-bold hover:bg-primary-container hover:text-on-primary-container transition-colors shadow-md"
+                                href="#contact">Tư Vấn Ngay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Timeline Section -->
+    <section class="py-section-padding bg-surface overflow-hidden relative" id="workflow">
+        <!-- Decorative background elements -->
+        <div class="absolute top-0 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 right-1/4 w-96 h-96 bg-secondary/5 rounded-full blur-3xl"></div>
+
+        <div class="px-margin-mobile md:px-gutter max-w-container-max mx-auto relative z-10">
+            <div class="text-center mb-16 md:mb-24">
+                <h2 class="font-headline-md text-headline-md text-primary mb-stack-sm font-bold inline-block relative">
+                    Quy Trình Làm Việc
+                    <div
+                        class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-secondary rounded-full">
+                    </div>
+                </h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mt-6">Lộ trình 4 bước tinh
+                    gọn, minh bạch, đồng hành cùng bạn vươn tầm thế giới.</p>
+            </div>
+
+            <div class="relative">
+                <!-- Desktop Connecting Line -->
+                <div class="hidden lg:block absolute top-[40px] left-[12%] w-[76%] h-1 bg-outline-variant z-0">
+                    <div
+                        class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-primary via-secondary to-primary opacity-50">
+                    </div>
+                </div>
+
+                <!-- Mobile Connecting Line -->
+                <div
+                    class="lg:hidden absolute top-8 left-8 md:left-1/2 w-1 h-[80%] bg-outline-variant md:-translate-x-1/2 z-0">
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 relative z-10">
+                    <!-- Step 1 -->
+                    <div class="relative group flex md:flex-col lg:items-stretch gap-6 md:gap-0">
+                        <div class="md:mb-10 flex justify-center w-16 md:w-auto shrink-0 relative z-10">
+                            <div
+                                class="w-16 h-16 md:w-20 md:h-20 rounded-full bg-surface-container-lowest border-[6px] border-surface shadow-xl flex items-center justify-center font-display-lg-mobile text-primary font-bold group-hover:scale-110 group-hover:bg-primary group-hover:text-on-primary transition-all duration-500 relative">
+                                1
+                                <div
+                                    class="absolute inset-[-6px] rounded-full border-2 border-primary border-dashed animate-[spin_10s_linear_infinite] opacity-0 group-hover:opacity-100">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-surface-container-lowest rounded-3xl p-6 md:p-8 shadow-md hover:shadow-2xl transition-all duration-500 border border-outline-variant flex-1 md:text-center group-hover:-translate-y-2 relative overflow-hidden">
+                            <div
+                                class="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-bl-[100px] -z-10 transition-transform duration-700 group-hover:scale-[2]">
+                            </div>
+                            <div
+                                class="w-full h-48 mb-6 rounded-2xl overflow-hidden relative shadow-inner bg-surface-container">
+                                <img src="assets/img/anh-nguoi-that.jpg" alt="Tiếp nhận & Tư vấn"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                            </div>
+                            <h3 class="font-headline-sm text-xl text-primary mb-3 font-bold">Tiếp nhận & Tư vấn</h3>
+                            <p class="text-on-surface-variant text-body-md leading-relaxed">Đánh giá hồ sơ, tư vấn lộ
+                                trình và chọn chương trình phù hợp nhất với năng lực, tài chính.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="relative group flex md:flex-col lg:items-stretch gap-6 md:gap-0 lg:mt-16">
+                        <div class="md:mb-10 flex justify-center w-16 md:w-auto shrink-0 relative z-10">
+                            <div
+                                class="w-16 h-16 md:w-20 md:h-20 rounded-full bg-surface-container-lowest border-[6px] border-surface shadow-xl flex items-center justify-center font-display-lg-mobile text-secondary font-bold group-hover:scale-110 group-hover:bg-secondary group-hover:text-on-primary transition-all duration-500 relative">
+                                2
+                                <div
+                                    class="absolute inset-[-6px] rounded-full border-2 border-secondary border-dashed animate-[spin_10s_linear_infinite] opacity-0 group-hover:opacity-100">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-surface-container-lowest rounded-3xl p-6 md:p-8 shadow-md hover:shadow-2xl transition-all duration-500 border border-outline-variant flex-1 md:text-center group-hover:-translate-y-2 relative overflow-hidden">
+                            <div
+                                class="absolute top-0 right-0 w-32 h-32 bg-secondary/5 rounded-bl-[100px] -z-10 transition-transform duration-700 group-hover:scale-[2]">
+                            </div>
+                            <div
+                                class="w-full h-48 mb-6 rounded-2xl overflow-hidden relative shadow-inner bg-surface-container">
+                                <img src="assets/img/1787213884652_2187270042274317828_g925077470975449224_ea6a93869ad856905ca80b53fbcea83a.jpg"
+                                    alt="Hoàn thiện hồ sơ"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                            </div>
+                            <h3 class="font-headline-sm text-xl text-primary mb-3 font-bold">Hoàn thiện hồ sơ</h3>
+                            <p class="text-on-surface-variant text-body-md leading-relaxed">Hỗ trợ trọn gói từ A-Z:
+                                chuẩn bị giấy tờ, dịch thuật, công chứng và đào tạo ngoại ngữ.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="relative group flex md:flex-col lg:items-stretch gap-6 md:gap-0">
+                        <div class="md:mb-10 flex justify-center w-16 md:w-auto shrink-0 relative z-10">
+                            <div
+                                class="w-16 h-16 md:w-20 md:h-20 rounded-full bg-surface-container-lowest border-[6px] border-surface shadow-xl flex items-center justify-center font-display-lg-mobile text-tertiary-container font-bold group-hover:scale-110 group-hover:bg-tertiary-container group-hover:text-white transition-all duration-500 relative">
+                                3
+                                <div
+                                    class="absolute inset-[-6px] rounded-full border-2 border-tertiary-container border-dashed animate-[spin_10s_linear_infinite] opacity-0 group-hover:opacity-100">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-surface-container-lowest rounded-3xl p-6 md:p-8 shadow-md hover:shadow-2xl transition-all duration-500 border border-outline-variant flex-1 md:text-center group-hover:-translate-y-2 relative overflow-hidden">
+                            <div
+                                class="absolute top-0 right-0 w-32 h-32 bg-tertiary-container/5 rounded-bl-[100px] -z-10 transition-transform duration-700 group-hover:scale-[2]">
+                            </div>
+                            <div
+                                class="w-full h-48 mb-6 rounded-2xl overflow-hidden relative shadow-inner bg-surface-container">
+                                <img src="assets/img/1787213884630_2187270042274317828_g925077470975449224_5b317838cb7290497a7fe9fabcdd8777.jpg"
+                                    alt="Xét duyệt Visa"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                            </div>
+                            <h3 class="font-headline-sm text-xl text-primary mb-3 font-bold">Xét duyệt Visa</h3>
+                            <p class="text-on-surface-variant text-body-md leading-relaxed">Đại diện nộp hồ sơ pháp lý,
+                                luyện phỏng vấn visa và theo dõi sát sao tiến trình kết quả.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="relative group flex md:flex-col lg:items-stretch gap-6 md:gap-0 lg:mt-16">
+                        <div class="md:mb-10 flex justify-center w-16 md:w-auto shrink-0 relative z-10">
+                            <div
+                                class="w-16 h-16 md:w-20 md:h-20 rounded-full bg-primary-container border-[6px] border-surface shadow-xl flex items-center justify-center text-on-primary-container font-bold group-hover:scale-110 group-hover:bg-primary group-hover:text-white transition-all duration-500 relative">
+                                <span class="material-symbols-outlined text-3xl md:text-4xl"
+                                    data-icon="flight_takeoff">flight_takeoff</span>
+                                <div
+                                    class="absolute inset-[-6px] rounded-full border-2 border-primary-container border-dashed animate-[spin_10s_linear_infinite] opacity-0 group-hover:opacity-100">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-primary text-on-primary rounded-3xl p-6 md:p-8 shadow-xl hover:shadow-2xl transition-all duration-500 flex-1 md:text-center group-hover:-translate-y-2 relative overflow-hidden border border-primary-container">
+                            <div
+                                class="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-bl-[100px] -z-10 transition-transform duration-700 group-hover:scale-[2]">
+                            </div>
+                            <div
+                                class="w-full h-48 mb-6 rounded-2xl overflow-hidden relative shadow-inner bg-primary-container">
+                                <img src="assets/img/1787213884566_2187270042274317828_g925077470975449224_b4ce361e824088a98d357828bd5fb2c5.jpg"
+                                    alt="Xuất cảnh & Ổn định"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                            </div>
+                            <h3 class="font-headline-sm text-xl text-white mb-3 font-bold">Xuất cảnh & Ổn định</h3>
+                            <p class="text-white/80 text-body-md leading-relaxed">Hỗ trợ vé máy bay, đưa đón sân bay và
+                                hướng dẫn hòa nhập, đồng hành tại nước sở tại.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery Section -->
+    <section class="py-section-padding bg-surface-container-low relative overflow-hidden" id="gallery">
+        <!-- Decorative blur behind -->
+        <div
+            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-[100px] pointer-events-none">
+        </div>
+
+        <div class="px-margin-mobile md:px-gutter max-w-container-max mx-auto relative z-10">
+            <div class="text-center mb-16">
+                <span
+                    class="bg-primary/10 text-primary px-4 py-1.5 rounded-full text-sm font-label-bold mb-4 inline-block tracking-wide uppercase">Thư
+                    Viện Của Chúng Tôi</span>
+                <h2 class="font-headline-md text-headline-md text-primary mb-4 font-bold">Hình Ảnh Hoạt Động</h2>
+                <p class="font-body-lg text-on-surface-variant max-w-2xl mx-auto">Khám phá những khoảnh khắc chân thực
+                    nhất của các ứng viên và du học sinh tại môi trường quốc tế.</p>
+            </div>
+
+            <!-- Bento Grid Layout -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 auto-rows-[250px] md:auto-rows-[300px]">
+
+                <!-- Main Large Image -->
+                <div
+                    class="md:col-span-2 md:row-span-2 relative group rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 cursor-pointer">
+                    <div
+                        class="absolute inset-0 bg-primary/20 mix-blend-multiply group-hover:opacity-0 transition-opacity duration-500 z-10">
+                    </div>
+                    <img alt="Workplace in Lithuania"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 ease-in-out"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzO7_ZPH7tNqiZ54MmJOU3qX9nzzOXvlPrX1vHjJgR7fNgRooPMkZIBIlgZ8r03s1bv7ic3jFMw1gopMRhSHowjIDITfqS44pNauDZcWTZeu59ATI4G4oaqzBTcJa2ikJ4wvFPI1tT94_pCg39ECgCnLblMA6-jqALgtUllX71V8y2WPnl_gJSPzD4ZN4xAUjF8t4zjUbHSav6Gh9izCsAfOxkkKPj-1Po0FzZJERG4IgAoyNuCXjyi_l-UhfNBV4qzN4" />
+
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-ink-black/90 via-ink-black/30 to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8 md:p-10 z-20">
+                        <div
+                            class="w-12 h-12 bg-white/20 backdrop-blur-md border border-white/30 rounded-full flex items-center justify-center text-white mb-4 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 delay-100">
+                            <span class="material-symbols-outlined">zoom_in</span>
+                        </div>
+                        <h4
+                            class="text-white font-display-lg-mobile text-2xl md:text-3xl font-bold mb-2 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                            Hoạt động tại địa phương</h4>
+                        <p
+                            class="text-white/80 font-body-md text-base transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 delay-75">
+                            Năng động, an toàn và mức thu nhập vô cùng hấp dẫn dành cho người lao động.</p>
+                    </div>
+                </div>
+
+                <!-- Small Image 1 -->
+                <div
+                    class="md:col-span-1 md:row-span-1 relative group rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 cursor-pointer">
+                    <img alt="Student Workshop"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAER8wAcVPfwUoIXqOt7Ha2ommd1hb0lRY24MrPdgvE-w61NSVELmhDLuomcrzvI6pJnFrOcH-IoFDjgg4WDO77w9IHeifOt55zexD2e-ZZDswtiAYfYIr5bJjzbsPmpuQlRyhwuVeefra6K_g_bOn44aVCJVHrFk2wPJk8cOLpw3MECWCdqhDyZCuiUisf2SZUzAIAd9LwaVV4-2lkbxs-uMVOYO5wUZ6ZRR53AZAJjunogtOx0bmqzK6aPVEhIuoSo_c" />
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-ink-black/90 to-transparent opacity-70 group-hover:opacity-90 transition-opacity duration-300 flex flex-col justify-end p-6 z-20">
+                        <h4
+                            class="text-white font-headline-sm text-lg font-bold mb-1 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                            Hội thảo định hướng</h4>
+                        <p
+                            class="text-secondary-fixed text-sm transform translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+                            Du học sinh</p>
+                    </div>
+                </div>
+
+                <!-- Small Image 2 -->
+                <div
+                    class="md:col-span-1 md:row-span-1 relative group rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 cursor-pointer">
+                    <img alt="Giao lưu đối tác"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4vIkpXWcCO8Shqf_GfDT1Ua3cud0IftThYIIcrSfFh458QAh5PYNkZ8zNr8m_W_XtwV3MXPx_-80gGeUtdKBOPY3LY10wsxoVvjwwZxTVNpyIaPNLn5wXk9tZ9zTGDI2qIQBHYkSS19eXRRPXjJL5YXtS9S9hlaLGw4BpzYP3g0IJU-9EoYrCm2g-l-NKC3sfeIC164gXXf_ntCc12Ko6DtT7g17McFp4M1DuVWXj-i0RQ_cuDABZDVxclJ2v5-7UkBs" />
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-ink-black/90 to-transparent opacity-70 group-hover:opacity-90 transition-opacity duration-300 flex flex-col justify-end p-6 z-20">
+                        <h4
+                            class="text-white font-headline-sm text-lg font-bold mb-1 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                            Gặp gỡ đối tác</h4>
+                        <p
+                            class="text-secondary-fixed text-sm transform translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+                            Sự kiện thường niên</p>
+                    </div>
+                </div>
+
+                <!-- Wide Image 3 -->
+                <div
+                    class="md:col-span-2 md:row-span-1 relative group rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 cursor-pointer">
+                    <img alt="Canada Farm Site"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxmxuJkLCNsYnVqGUy3xjXFRBjmguFwymiT-xH1ZHAqBlU1oZnPzCxSWTlJ0loE0MuenrSRt8Sax5AlhA_oUYyHvUvwN1Iv_P4wgbRtz5miTpBBDnHfLRYv_onBsG7Z8_MsUUTMMrbuAnb6wKRaFsxqTff5KYgTNdo8qt2asJi33slmazRKhLeBbGVyU-wR0N7odqGsToEYJARolNNYue8HseQb5ban6OT1pnAmVIn1AYz7AFHU0LBD49_HwCTeFDgIuM" />
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-ink-black/90 via-ink-black/20 to-transparent opacity-70 group-hover:opacity-90 transition-opacity duration-300 flex items-end p-6 md:p-8 z-20">
+                        <div>
+                            <h4
+                                class="text-white font-headline-sm text-xl font-bold mb-1 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                Chương trình Châu Âu & Canada</h4>
+                            <p
+                                class="text-white/80 text-sm md:text-base transform translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+                                Làm việc trực tiếp tại trang trại và nhà máy hiện đại</p>
+                        </div>
+                        <div
+                            class="ml-auto w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white transform scale-0 group-hover:scale-100 transition-transform duration-300 shrink-0">
+                            <span class="material-symbols-outlined text-xl">arrow_outward</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Call to action for gallery -->
+            <div class="mt-12 text-center">
+                <button
+                    class="inline-flex items-center gap-2 px-8 py-3 bg-surface-container-highest text-primary font-label-bold rounded-full hover:bg-primary hover:text-white transition-all duration-300 shadow-sm hover:shadow-md">
+                    Xem toàn bộ thư viện <span class="material-symbols-outlined text-lg">photo_library</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section class="py-section-padding bg-surface" id="testimonials">
+        <div class="px-margin-mobile md:px-gutter max-w-container-max mx-auto">
+            <div class="text-center mb-stack-lg">
+                <h2 class="font-headline-md text-headline-md text-primary mb-stack-sm font-bold">Đánh Giá Từ Khách Hàng
+                </h2>
+                <p class="font-body-lg text-on-surface-variant max-w-2xl mx-auto">Niềm tin của khách hàng là thước đo
+                    thành công của chúng tôi.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Review 1 -->
+                <div
+                    class="bg-surface-container-lowest p-8 rounded-3xl shadow-lg border border-outline-variant relative mt-6">
+                    <div
+                        class="absolute -top-6 left-8 w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-white font-serif text-3xl shadow-md">
+                        "</div>
+                    <div class="flex items-center gap-1 mb-6 mt-4 text-secondary">
+                        <span class="material-symbols-outlined" data-icon="star">star</span>
+                        <span class="material-symbols-outlined" data-icon="star">star</span>
+                        <span class="material-symbols-outlined" data-icon="star">star</span>
+                        <span class="material-symbols-outlined" data-icon="star">star</span>
+                        <span class="material-symbols-outlined" data-icon="star">star</span>
+                    </div>
+                    <p class="font-body-md text-on-surface-variant leading-relaxed mb-6">"Quy trình làm hồ sơ rất nhanh,
+                        tôi nhận được giấy phép lao động đúng như cam kết 2 tuần. Hiện công việc đóng gói khá vừa sức."
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold">
+                            L</div>
+                        <div>
+                            <div class="font-label-bold text-primary">Lao động Litva</div>
+                            <div class="text-xs text-on-surface-variant">Tháng 8/2023</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Review 2 -->
+                <div class="bg-primary p-8 rounded-3xl shadow-xl relative transform md:-translate-y-4">
+                    <div
+                        class="absolute -top-6 left-8 w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-white font-serif text-3xl shadow-md">
+                        "</div>
+                    <div class="flex items-center gap-1 mb-6 mt-4 text-secondary-fixed">
+                        <span class="material-symbols-outlined" data-icon="star">star</span>
+                        <span class="material-symbols-outlined" data-icon="star">star</span>
+                        <span class="material-symbols-outlined" data-icon="star">star</span>
+                        <span class="material-symbols-outlined" data-icon="star">star</span>
+                        <span class="material-symbols-outlined" data-icon="star">star</span>
+                    </div>
+                    <p class="font-body-md text-white/90 leading-relaxed mb-6">"Nhờ công ty tư vấn tận tình, tôi đã sang
+                        Canada làm nông nghiệp được 4 tháng. Thu nhập ổn định và môi trường rất an toàn."</p>
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center text-white font-bold">
+                            C</div>
+                        <div>
+                            <div class="font-label-bold text-white">Lao động Canada</div>
+                            <div class="text-xs text-white/70">Tháng 10/2023</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Review 3 -->
+                <div
+                    class="bg-surface-container-lowest p-8 rounded-3xl shadow-lg border border-outline-variant relative mt-6">
+                    <div
+                        class="absolute -top-6 left-8 w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-white font-serif text-3xl shadow-md">
+                        "</div>
+                    <div class="flex items-center gap-1 mb-6 mt-4 text-secondary">
+                        <span class="material-symbols-outlined" data-icon="star">star</span>
+                        <span class="material-symbols-outlined" data-icon="star">star</span>
+                        <span class="material-symbols-outlined" data-icon="star">star</span>
+                        <span class="material-symbols-outlined" data-icon="star">star</span>
+                        <span class="material-symbols-outlined" data-icon="star">star</span>
+                    </div>
+                    <p class="font-body-md text-on-surface-variant leading-relaxed mb-6">"Trải nghiệm văn hoá Mỹ thật
+                        tuyệt vời, công ty vẫn luôn đồng hành hỗ trợ mình cả khi đã sang đến nơi."</p>
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold">
+                            M</div>
+                        <div>
+                            <div class="font-label-bold text-primary">Du học sinh Mỹ diện J-1</div>
+                            <div class="text-xs text-on-surface-variant">Tháng 9/2023</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Review 4 -->
+                <div
+                    class="bg-surface-container-lowest p-8 rounded-3xl shadow-lg border border-outline-variant relative mt-6">
+                    <div
+                        class="absolute -top-6 left-8 w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-white font-serif text-3xl shadow-md">
+                        "</div>
+                    <div class="flex items-center gap-1 mb-6 mt-4 text-secondary">
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                    </div>
+                    <p class="font-body-md text-on-surface-variant leading-relaxed mb-6">"Tôi rất hài lòng với sự tư vấn
+                        chuyên nghiệp của Thanh Long. Quy trình minh bạch và hỗ trợ nhiệt tình giúp tôi yên tâm khi làm
+                        thủ tục đi Ireland."</p>
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold">
+                            N</div>
+                        <div>
+                            <div class="font-label-bold text-primary">Nguyễn Văn Nam</div>
+                            <div class="text-xs text-on-surface-variant">Lao động Ireland</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Review 5 -->
+                <div
+                    class="bg-surface-container-lowest p-8 rounded-3xl shadow-lg border border-outline-variant relative mt-6">
+                    <div
+                        class="absolute -top-6 left-8 w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-white font-serif text-3xl shadow-md">
+                        "</div>
+                    <div class="flex items-center gap-1 mb-6 mt-4 text-secondary">
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                    </div>
+                    <p class="font-body-md text-on-surface-variant leading-relaxed mb-6">"Cảm ơn công ty đã giúp con tôi
+                        tìm được chương trình du học nghề Đức phù hợp. Hiện tại cháu đã ổn định và bắt đầu việc học tập
+                        rất tốt."</p>
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold">
+                            M</div>
+                        <div>
+                            <div class="font-label-bold text-primary">Chị Mai</div>
+                            <div class="text-xs text-on-surface-variant">Phụ huynh học sinh</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Review 6 -->
+                <div
+                    class="bg-surface-container-lowest p-8 rounded-3xl shadow-lg border border-outline-variant relative mt-6">
+                    <div
+                        class="absolute -top-6 left-8 w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-white font-serif text-3xl shadow-md">
+                        "</div>
+                    <div class="flex items-center gap-1 mb-6 mt-4 text-secondary">
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                    </div>
+                    <p class="font-body-md text-on-surface-variant leading-relaxed mb-6">"Dịch vụ của Thanh Long cực kỳ
+                        uy tín. Tôi đã nhận được Visa EB-3 đúng thời hạn và đang chuẩn bị định cư cùng gia đình tại Mỹ."
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold">
+                            H</div>
+                        <div>
+                            <div class="font-label-bold text-primary">Anh Hoàng</div>
+                            <div class="text-xs text-on-surface-variant">Định cư Mỹ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ Section -->
+    <section class="py-section-padding bg-surface-container-low" id="faq">
+        <div class="px-margin-mobile md:px-gutter max-w-container-max mx-auto max-w-3xl">
+            <div class="text-center mb-stack-lg">
+                <h2 class="font-headline-md text-headline-md text-primary mb-stack-sm font-bold">Câu Hỏi Thường Gặp</h2>
+                <p class="text-on-surface-variant">Giải đáp những thắc mắc phổ biến nhất</p>
+            </div>
+            <div class="space-y-4">
+                <!-- FAQ 1 -->
+                <details
+                    class="bg-surface-container-lowest rounded-2xl shadow-sm border border-outline-variant group overflow-hidden"
+                    open="">
+                    <summary
+                        class="flex justify-between items-center font-label-bold text-lg text-primary p-6 cursor-pointer list-none hover:bg-surface-container transition-colors">
+                        Tôi không có bằng cấp hay kinh nghiệm thì có đi xuất khẩu lao động được không?
+                        <span
+                            class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 bg-primary/10 p-1 rounded-full">expand_more</span>
+                    </summary>
+                    <div class="p-6 pt-0 text-on-surface-variant font-body-md bg-surface-container-lowest">
+                        <div class="pt-4 border-t border-outline-variant">
+                            Hoàn toàn được. Các chương trình như đóng gói tại Litva hoặc nông nghiệp Canada không yêu
+                            cầu bằng cấp, chỉ cần sức khoẻ tốt và chăm chỉ.
+                        </div>
+                    </div>
+                </details>
+                <!-- FAQ 2 -->
+                <details
+                    class="bg-surface-container-lowest rounded-2xl shadow-sm border border-outline-variant group overflow-hidden">
+                    <summary
+                        class="flex justify-between items-center font-label-bold text-lg text-primary p-6 cursor-pointer list-none hover:bg-surface-container transition-colors">
+                        Thời gian chờ xuất cảnh mất bao lâu?
+                        <span
+                            class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 bg-primary/10 p-1 rounded-full">expand_more</span>
+                    </summary>
+                    <div class="p-6 pt-0 text-on-surface-variant font-body-md bg-surface-container-lowest">
+                        <div class="pt-4 border-t border-outline-variant">
+                            Tuỳ thuộc vào thị trường. Ví dụ đơn Litva xin giấy phép rất nhanh (2 tuần), trong khi Canada
+                            hoặc Mỹ sẽ cần 4-8 tháng để xử lý hồ sơ pháp lý.
+                        </div>
+                    </div>
+                </details>
+                <!-- FAQ 3 -->
+                <details
+                    class="bg-surface-container-lowest rounded-2xl shadow-sm border border-outline-variant group overflow-hidden">
+                    <summary
+                        class="flex justify-between items-center font-label-bold text-lg text-primary p-6 cursor-pointer list-none hover:bg-surface-container transition-colors">
+                        Chi phí làm hồ sơ có phát sinh thêm không?
+                        <span
+                            class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 bg-primary/10 p-1 rounded-full">expand_more</span>
+                    </summary>
+                    <div class="p-6 pt-0 text-on-surface-variant font-body-md bg-surface-container-lowest">
+                        <div class="pt-4 border-t border-outline-variant">
+                            Thanh Long cam kết chi phí minh bạch ngay từ lúc ký hợp đồng, các khoản phí lãnh sự hay dịch
+                            vụ đều được liệt kê rõ ràng, không có chi phí ẩn.
+                        </div>
+                    </div>
+                </details>
+                <!-- FAQ 4 -->
+                <details
+                    class="bg-surface-container-lowest rounded-2xl shadow-sm border border-outline-variant group overflow-hidden">
+                    <summary
+                        class="flex justify-between items-center font-label-bold text-lg text-primary p-6 cursor-pointer list-none hover:bg-surface-container transition-colors">
+                        Công ty có hỗ trợ tôi sau khi bay sang nước ngoài không?
+                        <span
+                            class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 bg-primary/10 p-1 rounded-full">expand_more</span>
+                    </summary>
+                    <div class="p-6 pt-0 text-on-surface-variant font-body-md bg-surface-container-lowest">
+                        <div class="pt-4 border-t border-outline-variant">
+                            Có. Chúng tôi cam kết đồng hành, hỗ trợ pháp lý và hướng dẫn hòa nhập cuộc sống cho đến khi
+                            bạn ổn định công việc.
+                        </div>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Form & Commitments -->
+    <section class="py-section-padding bg-primary relative overflow-hidden" id="contact">
+        <div
+            class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'0.05\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-50">
+        </div>
+        <div
+            class="px-margin-mobile md:px-gutter max-w-container-max mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center relative z-10">
+            <div class="text-on-primary">
+                <h2 class="font-display-lg-mobile md:font-display-lg font-bold mb-6">Sẵn sàng vươn ra biển lớn?</h2>
+                <p class="text-lg opacity-90 mb-10 max-w-lg">Để lại thông tin, các chuyên gia tư vấn của chúng tôi sẽ
+                    liên hệ lại trong vòng 24 giờ để thiết kế lộ trình dành riêng cho bạn.</p>
+                <h3 class="font-headline-sm font-bold mb-6 text-secondary-fixed">Cam Kết 4 CÓ</h3>
+                <ul class="space-y-6">
+                    <li class="flex items-center gap-4 bg-white/10 p-4 rounded-xl backdrop-blur-sm">
+                        <div
+                            class="w-10 h-10 rounded-full bg-secondary text-white flex items-center justify-center shrink-0">
+                            <span class="material-symbols-outlined" data-icon="gavel">gavel</span>
+                        </div>
+                        <span class="font-label-bold text-lg">Pháp lý minh bạch, rõ ràng</span>
+                    </li>
+                    <li class="flex items-center gap-4 bg-white/10 p-4 rounded-xl backdrop-blur-sm">
+                        <div
+                            class="w-10 h-10 rounded-full bg-secondary text-white flex items-center justify-center shrink-0">
+                            <span class="material-symbols-outlined" data-icon="savings">savings</span>
+                        </div>
+                        <span class="font-label-bold text-lg">Chi phí hợp lý, không phát sinh</span>
+                    </li>
+                    <li class="flex items-center gap-4 bg-white/10 p-4 rounded-xl backdrop-blur-sm">
+                        <div
+                            class="w-10 h-10 rounded-full bg-secondary text-white flex items-center justify-center shrink-0">
+                            <span class="material-symbols-outlined" data-icon="support_agent">support_agent</span>
+                        </div>
+                        <span class="font-label-bold text-lg">Hỗ trợ trọn gói A-Z</span>
+                    </li>
+                    <li class="flex items-center gap-4 bg-white/10 p-4 rounded-xl backdrop-blur-sm">
+                        <div
+                            class="w-10 h-10 rounded-full bg-secondary text-white flex items-center justify-center shrink-0">
+                            <span class="material-symbols-outlined" data-icon="work">work</span>
+                        </div>
+                        <span class="font-label-bold text-lg">Đảm bảo việc làm ổn định</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-surface rounded-3xl p-8 md:p-10 shadow-2xl relative">
+                <div class="absolute -top-6 -right-6 w-24 h-24 bg-secondary rounded-full -z-10 blur-2xl opacity-50">
+                </div>
+                <div class="absolute -bottom-6 -left-6 w-32 h-32 bg-primary rounded-full -z-10 blur-2xl opacity-50">
+                </div>
+                <h3 class="font-headline-md text-primary mb-2 font-bold text-center">Đăng Ký Tư Vấn</h3>
+                <p class="text-center text-on-surface-variant mb-8 text-sm">Thông tin của bạn được bảo mật tuyệt đối</p>
+                <form class="space-y-6">
+                    <div>
+                        <label class="block text-on-surface-variant font-label-bold mb-2 text-sm" for="name">Họ và
+                            tên</label>
+                        <input
+                            class="w-full rounded-xl border-outline-variant bg-surface-container-lowest text-on-surface focus:border-primary focus:ring-primary px-4 py-3"
+                            id="name" placeholder="Nhập họ và tên của bạn" type="text" />
+                    </div>
+                    <div>
+                        <label class="block text-on-surface-variant font-label-bold mb-2 text-sm" for="phone">Số điện
+                            thoại</label>
+                        <input
+                            class="w-full rounded-xl border-outline-variant bg-surface-container-lowest text-on-surface focus:border-primary focus:ring-primary px-4 py-3"
+                            id="phone" placeholder="Nhập số điện thoại liên hệ" type="tel" />
+                    </div>
+                    <div>
+                        <label class="block text-on-surface-variant font-label-bold mb-2 text-sm" for="program">Chương
+                            trình quan tâm</label>
+                        <select
+                            class="w-full rounded-xl border-outline-variant bg-surface-container-lowest text-on-surface focus:border-primary focus:ring-primary px-4 py-3"
+                            id="program">
+                            <option>Thị trường Châu Âu (Litva, Ireland...)</option>
+                            <option>Thị trường Bắc Mỹ (Canada, Mỹ...)</option>
+                            <option>Du học &amp; Giao lưu văn hoá</option>
+                        </select>
+                    </div>
+                    <button
+                        class="w-full bg-secondary text-on-primary py-4 rounded-xl font-bold text-lg hover:bg-secondary-container hover:text-on-secondary-container transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1 mt-4"
+                        type="button">
+                        GỬI YÊU CẦU NGAY
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer
+        class="bg-surface-container-highest text-on-surface font-body-md text-body-md full-width pt-16 pb-8 border-t border-outline-variant">
+        <div
+            class="grid grid-cols-1 md:grid-cols-12 gap-8 w-full px-margin-mobile md:px-gutter max-w-container-max mx-auto mb-12">
+            <div class="md:col-span-5">
+                <div class="flex items-center gap-3 mb-6">
+                    <img alt="Thanh Long Logo" class="h-12 w-auto grayscale opacity-80"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTIb1kIb6SEawijvrHf9IzUyubkEPfSNhKlCPJ__v6ANo_KhVIiPavAq1sE2pWOSRBzLG_PURP7pwvWtoG76wxNKsampm6LQJ1R7Xvox5DMrYQ1wdJcrvN2AvNDt9EoU3WIHKZEHh8ouNpyzSrHCqpZOr89_Fp12jymoXeutfiKxjRxfiC8O0QQQ1kBmbfmOx6HDs-W2cZweSpsvpGAHRf0shVrVEmvY4VwWiD_-EMtr2SxPqhIrXopP2eopRq45SfpVw" />
+                </div>
+                <p class="mb-6 text-on-surface-variant leading-relaxed pr-8">Chúng tôi cam kết mang đến những cơ hội
+                    việc làm và học tập tốt nhất, minh bạch nhất cho người Việt Nam trên toàn thế giới.</p>
+                <div class="flex gap-4">
+                    <a class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center hover:bg-primary hover:text-white transition-colors"
+                        href="#">
+                        <span class="font-bold">fb</span>
+                    </a>
+                    <a class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center hover:bg-primary hover:text-white transition-colors"
+                        href="#">
+                        <span class="font-bold">yt</span>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-3">
+                <h4 class="font-label-bold text-lg mb-6 text-primary">Thông Tin Liên Hệ</h4>
+                <ul class="space-y-4">
+                    <li class="flex gap-3">
+                        <span class="material-symbols-outlined text-secondary shrink-0">location_on</span>
+                        <span class="text-on-surface-variant">Khoái Châu, Hưng Yên, Vietnam</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span class="material-symbols-outlined text-secondary shrink-0">call</span>
+                        <span class="text-on-surface-variant font-bold">0962.581.175</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span class="material-symbols-outlined text-secondary shrink-0">badge</span>
+                        <span class="text-on-surface-variant">MST: 0901139180</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="md:col-span-2">
+                <h4 class="font-label-bold text-lg mb-6 text-primary">Về Chúng Tôi</h4>
+                <ul class="space-y-3">
+                    <li><a class="text-on-surface-variant hover:text-primary transition-colors hover:underline"
+                            href="#about">Giới thiệu</a></li>
+                    <li><a class="text-on-surface-variant hover:text-primary transition-colors hover:underline"
+                            href="#programs">Chương trình</a></li>
+                    <li><a class="text-on-surface-variant hover:text-primary transition-colors hover:underline"
+                            href="#workflow">Quy trình</a></li>
+                    <li><a class="text-on-surface-variant hover:text-primary transition-colors hover:underline"
+                            href="#gallery">Thư viện ảnh</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-2">
+                <h4 class="font-label-bold text-lg mb-6 text-primary">Hỗ Trợ</h4>
+                <ul class="space-y-3">
+                    <li><a class="text-on-surface-variant hover:text-primary transition-colors hover:underline"
+                            href="#faq">FAQ</a></li>
+                    <li><a class="text-on-surface-variant hover:text-primary transition-colors hover:underline"
+                            href="#">Chính sách bảo mật</a></li>
+                    <li><a class="text-on-surface-variant hover:text-primary transition-colors hover:underline"
+                            href="#">Điều khoản Dịch vụ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div
+            class="px-margin-mobile md:px-gutter max-w-container-max mx-auto border-t border-outline-variant pt-8 text-center text-sm text-on-surface-variant">
+            <p>© 2024 CÔNG TY TNHH TM &amp; TƯ VẤN XNK THANH LONG. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Canada Job Modal -->
+    <div id="canadaModal"
+        class="fixed inset-0 z-[100] hidden items-center justify-center bg-ink-black/60 backdrop-blur-sm p-4 opacity-0 transition-opacity duration-300">
+        <div class="bg-surface-container-lowest rounded-3xl w-full max-w-4xl max-h-[90vh] overflow-y-auto shadow-2xl transform scale-95 transition-transform duration-300"
+            id="canadaModalContent">
+            <div
+                class="sticky top-0 bg-surface-container-lowest border-b border-outline-variant p-6 flex justify-between items-center z-10">
+                <div>
+                    <h3 class="font-headline-md text-primary font-bold text-xl md:text-2xl">THÔNG BÁO ĐƠN HÀNG</h3>
+                    <p class="text-secondary font-bold text-sm md:text-base uppercase">Lao động Canada Nông nghiệp (Hợp
+                        đồng 2 năm, có thể gia hạn)</p>
+                </div>
+                <button onclick="closeModal('canadaModal')"
+                    class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container-high text-on-surface-variant transition-colors">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+            </div>
+            <div class="p-6">
+                <div class="overflow-x-auto rounded-xl border border-outline-variant">
+                    <table class="w-full text-left border-collapse min-w-[700px]">
+                        <thead>
+                            <tr class="bg-success-green-light border-b border-outline-variant">
+                                <th
+                                    class="p-3 font-bold text-tertiary-container w-16 text-center border-r border-outline-variant">
+                                    Stt</th>
+                                <th class="p-3 font-bold text-tertiary-container w-1/3 border-r border-outline-variant">
+                                    Hạng mục</th>
+                                <th class="p-3 font-bold text-tertiary-container">Nội dung</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-on-surface-variant text-sm md:text-base divide-y divide-outline-variant">
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">1</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Công việc tiếp nhận:</td>
+                                <td class="p-3 font-bold text-primary">NÔNG NGHIỆP</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">2</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Địa điểm làm việc:</td>
+                                <td class="p-3 font-bold text-primary">CANADA</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">3</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Ngành nghề xin visa:</td>
+                                <td class="p-3">Visa lao động</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">4</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Tên và nội dung CV cụ thể:
+                                </td>
+                                <td class="p-3 font-bold">Làm việc tại FARM</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">5</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Điều kiện tuyển dụng:</td>
+                                <td class="p-3">
+                                    <div class="flex flex-wrap gap-x-8 gap-y-2">
+                                        <span>Số lượng nam cần tuyển: <strong>10 Nam</strong></span>
+                                        <span>Số lượng nữ cần tuyển: <strong>20 Nữ</strong></span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant" rowspan="5">6</td>
+                                <td
+                                    class="p-3 font-bold border-r border-outline-variant border-b border-outline-variant/50">
+                                    1. Độ tuổi</td>
+                                <td class="p-3 font-bold text-error border-b border-outline-variant/50">20-38</td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="p-3 font-bold border-r border-outline-variant border-b border-outline-variant/50">
+                                    2. Trình độ:</td>
+                                <td class="p-3 font-bold border-b border-outline-variant/50">Không yêu cầu bằng cấp</td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="p-3 font-bold border-r border-outline-variant border-b border-outline-variant/50">
+                                    3. Tay nghề:</td>
+                                <td class="p-3 font-bold text-error border-b border-outline-variant/50">CÓ KINH NGHIỆM
+                                    LÀM NÔNG NGHIỆP</td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="p-3 font-bold border-r border-outline-variant border-b border-outline-variant/50">
+                                    4. Yêu cầu khác</td>
+                                <td class="p-3 border-b border-outline-variant/50">
+                                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                                        <div><strong>Thị lực:</strong> tốt</div>
+                                        <div><strong>Thể hình:</strong> Sức khoẻ tốt</div>
+                                        <div><strong>Thuận tay:</strong> không yêu cầu</div>
+                                        <div><strong>Hút thuốc:</strong> không hút thuốc tại nơi làm việc</div>
+                                        <div class="sm:col-span-2"><strong>Chiều cao:</strong> 1m6 trở lên, <strong>Cân
+                                                nặng:</strong> 55kg trở lên</div>
+                                        <div class="sm:col-span-2"><strong>Bệnh lý:</strong> Không mắc bệnh HIV, Giang
+                                            mai, Lao phổi, Khuyết tật</div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold border-r border-outline-variant">5. Yêu cầu đặc biệt:</td>
+                                <td class="p-3">
+                                    <ul class="list-disc list-inside space-y-1">
+                                        <li>Nghiêm túc trong công việc, chăm chỉ, chịu khó</li>
+                                        <li>Có ý chí vươn lên, tập trung cho công việc</li>
+                                        <li>Giữ gìn kỷ luật tốt</li>
+                                        <li class="font-bold text-error">Không yêu cầu tiếng</li>
+                                        <li class="font-bold">Ưu tiên ứng viên có tiếng anh</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">7</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Hình thức tuyển dụng:</td>
+                                <td class="p-3 text-error">Lao động quay video làm công việc hoặc hình ảnh liên quan đến
+                                    nông nghiệp.</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">8</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Thời gian thi tuyển</td>
+                                <td class="p-3">Đơn hàng liên tục có sẵn Lmia</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">9</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Thu nhập</td>
+                                <td class="p-3 font-bold text-error">Lương 18-20 CA/h, tuần làm 5 ngày 40h/Tuần, Làm
+                                    thêm theo quy định của công ty.</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">10</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Các loại thuế, bảo hiểm, chi
+                                    phí ăn ở hàng tháng:</td>
+                                <td class="p-3 font-bold text-error">Theo quy định Pháp luật Canada</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">11</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Quyền Lợi</td>
+                                <td class="p-3 font-bold text-error">- Visa làm việc 2 năm và có thể gia hạn</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">12</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Ngày dự kiến nhập cảnh:</td>
+                                <td class="p-3 font-bold text-center text-on-surface">Xuất cảnh 4 đến 8 tháng sau khi
+                                    hoàn thành hồ sơ</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div
+                class="p-6 border-t border-outline-variant bg-surface-container-low flex justify-end gap-4 rounded-b-3xl">
+                <button onclick="closeModal('canadaModal')"
+                    class="px-6 py-2.5 rounded-full font-label-bold text-primary hover:bg-primary/10 transition-colors border border-outline-variant bg-surface-container-lowest">Đóng</button>
+                <a href="#contact" onclick="closeModal('canadaModal')"
+                    class="bg-primary text-on-primary px-8 py-2.5 rounded-full font-label-bold hover:bg-primary-container hover:text-on-primary-container transition-colors shadow-sm">Đăng
+                    Ký Tư Vấn</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ireland Job Modal -->
+    <div id="irelandModal"
+        class="fixed inset-0 z-[100] hidden items-center justify-center bg-ink-black/60 backdrop-blur-sm p-4 opacity-0 transition-opacity duration-300">
+        <div class="bg-surface-container-lowest rounded-3xl w-full max-w-4xl max-h-[90vh] overflow-y-auto shadow-2xl transform scale-95 transition-transform duration-300"
+            id="irelandModalContent">
+            <div
+                class="sticky top-0 bg-surface-container-lowest border-b border-outline-variant p-6 flex justify-between items-center z-10">
+                <div>
+                    <h3 class="font-headline-md text-primary font-bold text-xl md:text-2xl">THÔNG BÁO ĐƠN HÀNG</h3>
+                    <p class="text-secondary font-bold text-sm md:text-base uppercase">Lao động Ireland Hái nấm (Hợp
+                        đồng 2 năm, có thể gia hạn)</p>
+                </div>
+                <button onclick="closeModal('irelandModal')"
+                    class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container-high text-on-surface-variant transition-colors">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+            </div>
+            <div class="p-6">
+                <div class="overflow-x-auto rounded-xl border border-outline-variant">
+                    <table class="w-full text-left border-collapse min-w-[700px]">
+                        <thead>
+                            <tr class="bg-success-green-light border-b border-outline-variant">
+                                <th
+                                    class="p-3 font-bold text-tertiary-container w-16 text-center border-r border-outline-variant">
+                                    Stt</th>
+                                <th class="p-3 font-bold text-tertiary-container w-1/3 border-r border-outline-variant">
+                                    Hạng mục</th>
+                                <th class="p-3 font-bold text-tertiary-container">Nội dung</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-on-surface-variant text-sm md:text-base divide-y divide-outline-variant">
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">1</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Công việc tiếp nhận:</td>
+                                <td class="p-3 font-bold text-primary">NÔNG NGHIỆP</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">2</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Địa điểm làm việc:</td>
+                                <td class="p-3 font-bold text-primary">IRELAND</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">3</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Ngành nghề xin visa:</td>
+                                <td class="p-3">Visa lao động</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">4</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Tên và nội dung CV cụ thể:
+                                </td>
+                                <td class="p-3 font-bold">Thu hoạch nấm tại Farm</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">5</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Điều kiện tuyển dụng:</td>
+                                <td class="p-3">
+                                    <div class="flex flex-wrap gap-x-8 gap-y-2">
+                                        <span>Số lượng nam cần tuyển: <strong>15 Nam</strong></span>
+                                        <span>Số lượng nữ cần tuyển: <strong>30 Nữ</strong></span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant" rowspan="5">6</td>
+                                <td
+                                    class="p-3 font-bold border-r border-outline-variant border-b border-outline-variant/50">
+                                    1. Độ tuổi</td>
+                                <td class="p-3 font-bold text-error border-b border-outline-variant/50">20-40</td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="p-3 font-bold border-r border-outline-variant border-b border-outline-variant/50">
+                                    2. Trình độ:</td>
+                                <td class="p-3 font-bold border-b border-outline-variant/50">Tốt nghiệp THPT trở lên
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="p-3 font-bold border-r border-outline-variant border-b border-outline-variant/50">
+                                    3. Tay nghề:</td>
+                                <td class="p-3 font-bold text-error border-b border-outline-variant/50">Không yêu cầu
+                                    kinh nghiệm, sẽ được đào tạo</td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="p-3 font-bold border-r border-outline-variant border-b border-outline-variant/50">
+                                    4. Yêu cầu khác</td>
+                                <td class="p-3 border-b border-outline-variant/50">
+                                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                                        <div><strong>Thị lực:</strong> tốt</div>
+                                        <div><strong>Thể hình:</strong> Sức khoẻ tốt</div>
+                                        <div class="sm:col-span-2"><strong>Bệnh lý:</strong> Không mắc bệnh HIV, Giang
+                                            mai, Lao phổi, Khuyết tật</div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold border-r border-outline-variant">5. Yêu cầu đặc biệt:</td>
+                                <td class="p-3">
+                                    <ul class="list-disc list-inside space-y-1">
+                                        <li>Khéo léo, nhanh nhẹn, chăm chỉ</li>
+                                        <li>Tuân thủ kỷ luật lao động</li>
+                                        <li class="font-bold text-error">Tiếng Anh giao tiếp cơ bản</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">7</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Hình thức tuyển dụng:</td>
+                                <td class="p-3 text-error">Phỏng vấn qua video</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">8</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Thời gian thi tuyển</td>
+                                <td class="p-3">Liên tục hàng tháng</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">9</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Thu nhập</td>
+                                <td class="p-3 font-bold text-error">~ 14 EUR / giờ, tuần làm 5 ngày 40h. Làm thêm giờ
+                                    tính hệ số.</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">10</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Các loại thuế, bảo hiểm:</td>
+                                <td class="p-3 font-bold text-error">Theo quy định Pháp luật Ireland</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">11</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Quyền Lợi</td>
+                                <td class="p-3 font-bold text-error">- Hợp đồng 2 năm (có thể gia hạn), cơ hội làm việc
+                                    lâu dài</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">12</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Ngày dự kiến nhập cảnh:</td>
+                                <td class="p-3 font-bold text-center text-on-surface">Xuất cảnh 3 đến 5 tháng sau khi
+                                    đậu phỏng vấn</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div
+                class="p-6 border-t border-outline-variant bg-surface-container-low flex justify-end gap-4 rounded-b-3xl">
+                <button onclick="closeModal('irelandModal')"
+                    class="px-6 py-2.5 rounded-full font-label-bold text-primary hover:bg-primary/10 transition-colors border border-outline-variant bg-surface-container-lowest">Đóng</button>
+                <a href="#contact" onclick="closeModal('irelandModal')"
+                    class="bg-primary text-on-primary px-8 py-2.5 rounded-full font-label-bold hover:bg-primary-container hover:text-on-primary-container transition-colors shadow-sm">Đăng
+                    Ký Tư Vấn</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- USA Job Modal -->
+    <div id="usaModal"
+        class="fixed inset-0 z-[100] hidden items-center justify-center bg-ink-black/60 backdrop-blur-sm p-4 opacity-0 transition-opacity duration-300">
+        <div class="bg-surface-container-lowest rounded-3xl w-full max-w-4xl max-h-[90vh] overflow-y-auto shadow-2xl transform scale-95 transition-transform duration-300"
+            id="usaModalContent">
+            <div
+                class="sticky top-0 bg-surface-container-lowest border-b border-outline-variant p-6 flex justify-between items-center z-10">
+                <div>
+                    <h3 class="font-headline-md text-primary font-bold text-xl md:text-2xl">THÔNG BÁO ĐƠN HÀNG</h3>
+                    <p class="text-secondary font-bold text-sm md:text-base uppercase">Định cư Mỹ diện lao động phổ
+                        thông (EB-3)</p>
+                </div>
+                <button onclick="closeModal('usaModal')"
+                    class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container-high text-on-surface-variant transition-colors">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+            </div>
+            <div class="p-6">
+                <div class="overflow-x-auto rounded-xl border border-outline-variant">
+                    <table class="w-full text-left border-collapse min-w-[700px]">
+                        <thead>
+                            <tr class="bg-success-green-light border-b border-outline-variant">
+                                <th
+                                    class="p-3 font-bold text-tertiary-container w-16 text-center border-r border-outline-variant">
+                                    Stt</th>
+                                <th class="p-3 font-bold text-tertiary-container w-1/3 border-r border-outline-variant">
+                                    Hạng mục</th>
+                                <th class="p-3 font-bold text-tertiary-container">Nội dung</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-on-surface-variant text-sm md:text-base divide-y divide-outline-variant">
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">1</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Công việc tiếp nhận:</td>
+                                <td class="p-3 font-bold text-primary">LAO ĐỘNG PHỔ THÔNG</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">2</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Địa điểm làm việc:</td>
+                                <td class="p-3 font-bold text-primary">USA (HOA KỲ)</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">3</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Ngành nghề xin visa:</td>
+                                <td class="p-3">Visa định cư diện EB-3</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">4</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Tên và nội dung CV cụ thể:
+                                </td>
+                                <td class="p-3 font-bold">Làm việc tại nhà máy chế biến thực phẩm, đóng gói, vệ sinh
+                                    công nghiệp...</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">5</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Điều kiện tuyển dụng:</td>
+                                <td class="p-3">Số lượng không giới hạn</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant" rowspan="5">6</td>
+                                <td
+                                    class="p-3 font-bold border-r border-outline-variant border-b border-outline-variant/50">
+                                    1. Độ tuổi</td>
+                                <td class="p-3 font-bold text-error border-b border-outline-variant/50">18-50</td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="p-3 font-bold border-r border-outline-variant border-b border-outline-variant/50">
+                                    2. Trình độ:</td>
+                                <td class="p-3 font-bold border-b border-outline-variant/50">Không yêu cầu</td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="p-3 font-bold border-r border-outline-variant border-b border-outline-variant/50">
+                                    3. Tay nghề:</td>
+                                <td class="p-3 font-bold text-error border-b border-outline-variant/50">Không yêu cầu
+                                    kinh nghiệm</td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="p-3 font-bold border-r border-outline-variant border-b border-outline-variant/50">
+                                    4. Yêu cầu khác</td>
+                                <td class="p-3 border-b border-outline-variant/50">Đủ sức khỏe lao động, lý lịch tư pháp
+                                    trong sạch (không tiền án tiền sự)</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold border-r border-outline-variant">5. Yêu cầu đặc biệt:</td>
+                                <td class="p-3">Sẵn sàng làm các công việc chân tay, tuân thủ kỷ luật lao động tại Mỹ
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">7</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Hình thức tuyển dụng:</td>
+                                <td class="p-3 text-error">Xét duyệt hồ sơ</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">8</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Thời gian thi tuyển</td>
+                                <td class="p-3">Nộp hồ sơ liên tục</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">9</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Thu nhập</td>
+                                <td class="p-3 font-bold text-error">12 - 15 USD/giờ (Tuỳ theo bang và công việc)</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">10</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Thuế, bảo hiểm:</td>
+                                <td class="p-3 font-bold text-error">Theo quy định của Hoa Kỳ</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">11</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Quyền Lợi</td>
+                                <td class="p-3 font-bold text-error">- Cấp thẻ xanh (Green Card) vĩnh viễn cho cả gia
+                                    đình<br>- Vợ/chồng được đi làm tự do, con cái học miễn phí trường công đến lớp 12
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">12</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Ngày dự kiến nhập cảnh:</td>
+                                <td class="p-3 font-bold text-center text-on-surface">Theo lịch trình xét duyệt định cư
+                                    của Chính phủ Mỹ</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div
+                class="p-6 border-t border-outline-variant bg-surface-container-low flex justify-end gap-4 rounded-b-3xl">
+                <button onclick="closeModal('usaModal')"
+                    class="px-6 py-2.5 rounded-full font-label-bold text-primary hover:bg-primary/10 transition-colors border border-outline-variant bg-surface-container-lowest">Đóng</button>
+                <a href="#contact" onclick="closeModal('usaModal')"
+                    class="bg-primary text-on-primary px-8 py-2.5 rounded-full font-label-bold hover:bg-primary-container hover:text-on-primary-container transition-colors shadow-sm">Đăng
+                    Ký Tư Vấn</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Litva Job Modal -->
+    <div id="litvaModal"
+        class="fixed inset-0 z-[100] hidden items-center justify-center bg-ink-black/60 backdrop-blur-sm p-4 opacity-0 transition-opacity duration-300">
+        <div class="bg-surface-container-lowest rounded-3xl w-full max-w-4xl max-h-[90vh] overflow-y-auto shadow-2xl transform scale-95 transition-transform duration-300"
+            id="litvaModalContent">
+            <div
+                class="sticky top-0 bg-surface-container-lowest border-b border-outline-variant p-6 flex justify-between items-center z-10">
+                <div>
+                    <h3 class="font-headline-md text-primary font-bold text-xl md:text-2xl">THÔNG BÁO ĐƠN HÀNG</h3>
+                    <p class="text-secondary font-bold text-sm md:text-base uppercase">Nhân viên đóng gói (Packer) tại
+                        Litva</p>
+                </div>
+                <button onclick="closeModal('litvaModal')"
+                    class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container-high text-on-surface-variant transition-colors">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+            </div>
+            <div class="p-6">
+                <div class="overflow-x-auto rounded-xl border border-outline-variant">
+                    <table class="w-full text-left border-collapse min-w-[700px]">
+                        <thead>
+                            <tr class="bg-success-green-light border-b border-outline-variant">
+                                <th
+                                    class="p-3 font-bold text-tertiary-container w-16 text-center border-r border-outline-variant">
+                                    Stt</th>
+                                <th class="p-3 font-bold text-tertiary-container w-1/3 border-r border-outline-variant">
+                                    Hạng mục</th>
+                                <th class="p-3 font-bold text-tertiary-container">Nội dung</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-on-surface-variant text-sm md:text-base divide-y divide-outline-variant">
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">1</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Công việc tiếp nhận:</td>
+                                <td class="p-3 font-bold text-primary">NHÂN VIÊN ĐÓNG GÓI (PACKER)</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">2</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Địa điểm làm việc:</td>
+                                <td class="p-3 font-bold text-primary">LITVA (CHÂU ÂU)</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">3</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Ngành nghề xin visa:</td>
+                                <td class="p-3">Visa lao động</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">4</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Tên và nội dung CV cụ thể:
+                                </td>
+                                <td class="p-3 font-bold">Đóng gói hàng hóa tại trung tâm Logistics</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">5</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Điều kiện tuyển dụng:</td>
+                                <td class="p-3">
+                                    <div class="flex flex-wrap gap-x-8 gap-y-2">
+                                        <span>Số lượng nam cần tuyển: <strong>20 Nam</strong></span>
+                                        <span>Số lượng nữ cần tuyển: <strong>30 Nữ</strong></span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant" rowspan="5">6</td>
+                                <td
+                                    class="p-3 font-bold border-r border-outline-variant border-b border-outline-variant/50">
+                                    1. Độ tuổi</td>
+                                <td class="p-3 font-bold text-error border-b border-outline-variant/50">20-45</td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="p-3 font-bold border-r border-outline-variant border-b border-outline-variant/50">
+                                    2. Trình độ:</td>
+                                <td class="p-3 font-bold border-b border-outline-variant/50">Tốt nghiệp THPT</td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="p-3 font-bold border-r border-outline-variant border-b border-outline-variant/50">
+                                    3. Tay nghề:</td>
+                                <td class="p-3 font-bold text-error border-b border-outline-variant/50">Không yêu cầu,
+                                    ưu tiên từng làm kho bãi, đóng gói</td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="p-3 font-bold border-r border-outline-variant border-b border-outline-variant/50">
+                                    4. Yêu cầu khác</td>
+                                <td class="p-3 border-b border-outline-variant/50">Sức khỏe tốt, không mắc bệnh truyền
+                                    nhiễm, thị lực tốt</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold border-r border-outline-variant">5. Yêu cầu đặc biệt:</td>
+                                <td class="p-3">Cẩn thận, nhanh nhẹn, ưu tiên biết tiếng Anh cơ bản</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">7</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Hình thức tuyển dụng:</td>
+                                <td class="p-3 text-error">Phỏng vấn online hoặc xét video giới thiệu</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">8</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Thời gian thi tuyển</td>
+                                <td class="p-3">Tuyển liên tục hàng tuần</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">9</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Thu nhập</td>
+                                <td class="p-3 font-bold text-error">Từ 900 EUR Net/tháng, tuần làm 5 ngày 40h. Có hỗ
+                                    trợ làm thêm giờ (OT).</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">10</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Thuế, bảo hiểm:</td>
+                                <td class="p-3 font-bold text-error">Theo quy định pháp luật Litva</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">11</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Quyền Lợi</td>
+                                <td class="p-3 font-bold text-error">- Visa lao động dài hạn tại Châu Âu<br>- Làm việc
+                                    trong môi trường sạch sẽ, hiện đại</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-center border-r border-outline-variant">12</td>
+                                <td class="p-3 font-bold border-r border-outline-variant">Ngày dự kiến nhập cảnh:</td>
+                                <td class="p-3 font-bold text-center text-on-surface">Xuất cảnh 3 đến 5 tháng sau khi
+                                    nộp hồ sơ</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div
+                class="p-6 border-t border-outline-variant bg-surface-container-low flex justify-end gap-4 rounded-b-3xl">
+                <button onclick="closeModal('litvaModal')"
+                    class="px-6 py-2.5 rounded-full font-label-bold text-primary hover:bg-primary/10 transition-colors border border-outline-variant bg-surface-container-lowest">Đóng</button>
+                <a href="#contact" onclick="closeModal('litvaModal')"
+                    class="bg-primary text-on-primary px-8 py-2.5 rounded-full font-label-bold hover:bg-primary-container hover:text-on-primary-container transition-colors shadow-sm">Đăng
+                    Ký Tư Vấn</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Action Buttons -->
+    <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-4 items-center">
+        <!-- Zalo Button -->
+        <a href="https://zalo.me/0962581175" target="_blank" rel="noopener noreferrer"
+            class="w-14 h-14 bg-[#0068FF] rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform hover:shadow-xl relative group"
+            style="border-radius: 50%;">
+            <span
+                class="absolute right-full mr-4 bg-surface-container-lowest px-3 py-1.5 rounded-lg text-sm font-label-bold text-on-surface whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity shadow-md pointer-events-none border border-outline-variant">Chat
+                Zalo</span>
+            <span class="text-white font-bold text-lg tracking-wide">Zalo</span>
+        </a>
+        <!-- Phone Button -->
+        <a href="tel:0962581175"
+            class="w-14 h-14 bg-error rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform hover:shadow-xl relative group"
+            style="border-radius: 50%;">
+            <span
+                class="absolute right-full mr-4 bg-surface-container-lowest px-3 py-1.5 rounded-lg text-sm font-label-bold text-on-surface whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity shadow-md pointer-events-none border border-outline-variant">0962.581.175</span>
+            <span class="material-symbols-outlined text-white text-3xl">call</span>
+        </a>
+    </div>
+
+    <script>
+        function openModal(modalId) {
+            const modal = document.getElementById(modalId);
+            const modalContent = document.getElementById(modalId + 'Content');
+
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            // Delay for animation
+            setTimeout(() => {
+                modal.classList.remove('opacity-0');
+                if (modalContent) {
+                    modalContent.classList.remove('scale-95');
+                    modalContent.classList.add('scale-100');
+                }
+            }, 10);
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal(modalId) {
+            const modal = document.getElementById(modalId);
+            const modalContent = document.getElementById(modalId + 'Content');
+
+            modal.classList.add('opacity-0');
+            if (modalContent) {
+                modalContent.classList.remove('scale-100');
+                modalContent.classList.add('scale-95');
+            }
+            setTimeout(() => {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+                document.body.style.overflow = '';
+            }, 300);
+        }
+
+        // Setup click outside to close for all modals
+        const modalIds = ['canadaModal', 'irelandModal', 'usaModal', 'litvaModal'];
+        modalIds.forEach(id => {
+            const modal = document.getElementById(id);
+            if (modal) {
+                modal.addEventListener('click', (e) => {
+                    if (e.target === modal) {
+                        closeModal(id);
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
