@@ -1,78 +1,137 @@
-    <!-- USA J1 Modal -->
-    <div id="usaJ1Modal"
-        class="fixed inset-0 z-[100] hidden items-center justify-center bg-ink-black/60 backdrop-blur-sm p-4 opacity-0 transition-opacity duration-300">
-        <div class="bg-surface-container-lowest rounded-3xl w-full max-w-4xl max-h-[90vh] overflow-y-auto shadow-2xl transform scale-95 transition-transform duration-300"
-            id="usaJ1ModalContent">
+<!-- USA J1 Modal -->
+<div id="usaJ1Modal"
+    class="fixed inset-0 z-[100] hidden items-center justify-center bg-ink-black/60 backdrop-blur-sm p-4 opacity-0 transition-opacity duration-300">
+    <div class="bg-surface-container-lowest rounded-3xl w-full max-w-4xl max-h-[90vh] overflow-y-auto shadow-2xl transform scale-95 transition-transform duration-300"
+        id="usaJ1ModalContent">
+        <div
+            class="sticky top-0 bg-surface-container-lowest border-b border-outline-variant p-6 flex justify-between items-center z-10">
+            <div>
+                <h3 class="font-headline-md text-primary font-bold text-xl md:text-2xl">CHƯƠNG TRÌNH GIAO LƯU VĂN HÓA MỸ
+                </h3>
+                <p class="text-secondary font-bold text-sm md:text-base uppercase">Trải nghiệm - Trưởng thành - Thu nhập
+                </p>
+            </div>
+            <button onclick="closeModal('usaJ1Modal')"
+                class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container-high text-on-surface-variant transition-colors">
+                <span class="material-symbols-outlined">close</span>
+            </button>
+        </div>
+        <div class="p-6">
+            <div class="overflow-x-auto rounded-xl border border-outline-variant">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-success-green-light border-b border-outline-variant">
+                            <th
+                                class="p-3 font-bold text-tertiary-container w-16 text-center border-r border-outline-variant">
+                                Stt</th>
+                            <th class="p-3 font-bold text-tertiary-container w-1/3 border-r border-outline-variant">
+                                Đặc điểm chương trình</th>
+                            <th class="p-3 font-bold text-tertiary-container">Nội dung chi tiết</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-on-surface-variant text-sm md:text-base divide-y divide-outline-variant">
+                        <tr>
+                            <td class="p-3 font-bold text-center border-r border-outline-variant">1</td>
+                            <td class="p-3 font-bold border-r border-outline-variant">Học tiếng Anh miễn phí</td>
+                            <td class="p-3">Nâng cao kỹ năng giao tiếp, tự tin và phát triển bản thân trong môi trường
+                                100% tiếng Anh.</td>
+                        </tr>
+                        <tr>
+                            <td class="p-3 font-bold text-center border-r border-outline-variant">2</td>
+                            <td class="p-3 font-bold border-r border-outline-variant">Du lịch Mỹ khám phá</td>
+                            <td class="p-3">Trải nghiệm văn hóa, tham quan các địa danh nổi tiếng bậc nhất thế giới
+                                (Hollywood, New York, v.v.).</td>
+                        </tr>
+                        <tr>
+                            <td class="p-3 font-bold text-center border-r border-outline-variant">3</td>
+                            <td class="p-3 font-bold border-r border-outline-variant">Thưởng thức món ăn ngon</td>
+                            <td class="p-3">Trải nghiệm ẩm thực đặc sắc, phong phú và đa dạng tại Mỹ.</td>
+                        </tr>
+                        <tr>
+                            <td class="p-3 font-bold text-center border-r border-outline-variant">4</td>
+                            <td class="p-3 font-bold border-r border-outline-variant">Thực tập hưởng lương</td>
+                            <td class="p-3 font-bold text-error text-lg">14$ - 28$/h<br><span
+                                    class="text-sm text-on-surface-variant font-normal">Thu nhập hấp dẫn, có cơ hội tích
+                                    lũy tài chính.</span></td>
+                        </tr>
+                        <tr class="bg-primary/5">
+                            <td class="p-3 font-bold text-center border-r border-outline-variant" rowspan="4"><span
+                                    class="material-symbols-outlined text-primary text-2xl">workspace_premium</span>
+                            </td>
+                            <td class="p-3 font-bold border-r border-outline-variant text-primary uppercase border-b border-outline-variant/50"
+                                rowspan="4">4 Cam Kết Vàng<br></td>
+                            <td
+                                class="p-3 font-bold text-on-surface border-b border-outline-variant/50 flex items-center gap-2">
+                                <span class="material-symbols-outlined text-success-green">paid</span> Thực tập hưởng
+                                lương</td>
+                        </tr>
+                        <tr class="bg-primary/5">
+                            <td
+                                class="p-3 font-bold text-on-surface border-b border-outline-variant/50 flex items-center gap-2">
+                                <span class="material-symbols-outlined text-success-green">health_and_safety</span> Bảo
+                                hiểm Y tế quốc tế (Được bảo vệ toàn diện)</td>
+                        </tr>
+                        <tr class="bg-primary/5">
+                            <td
+                                class="p-3 font-bold text-on-surface border-b border-outline-variant/50 flex items-center gap-2">
+                                <span class="material-symbols-outlined text-success-green">work</span> Bảo hiểm công
+                                việc (Hỗ trợ kết nối xuyên suốt, không lo thất nghiệp)</td>
+                        </tr>
+                        <tr class="bg-primary/5">
+                            <td class="p-3 font-bold text-on-surface flex items-center gap-2"><span
+                                    class="material-symbols-outlined text-success-green">support_agent</span> Hỗ trợ tại
+                                Mỹ 24/7 (Đơn vị uy tín luôn đồng hành cùng học viên)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- An Tâm Tuyệt Đối Section -->
             <div
-                class="sticky top-0 bg-surface-container-lowest border-b border-outline-variant p-6 flex justify-between items-center z-10">
-                <div>
-                    <h3 class="font-headline-md text-primary font-bold text-xl md:text-2xl">CHƯƠNG TRÌNH GIAO LƯU VĂN HÓA MỸ</h3>
-                    <p class="text-secondary font-bold text-sm md:text-base uppercase">Trải nghiệm - Trưởng thành - Thu nhập</p>
+                class="mt-6 bg-surface-container rounded-2xl overflow-hidden border border-outline-variant/50 shadow-md">
+                <div class="bg-[#1f3c88] text-white p-4 md:p-6 text-center">
+                    <h4 class="font-headline-md font-bold text-2xl md:text-3xl uppercase tracking-wider text-white">AN
+                        TÂM TUYỆT ĐỐI</h4>
+                    <p class="font-headline-sm text-xl md:text-2xl font-bold uppercase tracking-widest text-[#fbd14b]">
+                        CHO PHỤ HUYNH</p>
                 </div>
-                <button onclick="closeModal('usaJ1Modal')"
-                    class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container-high text-on-surface-variant transition-colors">
-                    <span class="material-symbols-outlined">close</span>
-                </button>
-            </div>
-            <div class="p-6">
-                <div class="overflow-x-auto rounded-xl border border-outline-variant">
-                    <table class="w-full text-left border-collapse">
-                        <thead>
-                            <tr class="bg-success-green-light border-b border-outline-variant">
-                                <th
-                                    class="p-3 font-bold text-tertiary-container w-16 text-center border-r border-outline-variant">
-                                    Stt</th>
-                                <th class="p-3 font-bold text-tertiary-container w-1/3 border-r border-outline-variant">
-                                    Đặc điểm chương trình</th>
-                                <th class="p-3 font-bold text-tertiary-container">Nội dung chi tiết</th>
-                            </tr>
-                        </thead>
-                        <tbody class="text-on-surface-variant text-sm md:text-base divide-y divide-outline-variant">
-                            <tr>
-                                <td class="p-3 font-bold text-center border-r border-outline-variant">1</td>
-                                <td class="p-3 font-bold border-r border-outline-variant">Học tiếng Anh miễn phí</td>
-                                <td class="p-3">Nâng cao kỹ năng giao tiếp, tự tin và phát triển bản thân trong môi trường 100% tiếng Anh.</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-bold text-center border-r border-outline-variant">2</td>
-                                <td class="p-3 font-bold border-r border-outline-variant">Du lịch Mỹ khám phá</td>
-                                <td class="p-3">Trải nghiệm văn hóa, tham quan các địa danh nổi tiếng bậc nhất thế giới (Hollywood, New York, v.v.).</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-bold text-center border-r border-outline-variant">3</td>
-                                <td class="p-3 font-bold border-r border-outline-variant">Thưởng thức món ăn ngon</td>
-                                <td class="p-3">Trải nghiệm ẩm thực đặc sắc, phong phú và đa dạng tại Mỹ.</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-bold text-center border-r border-outline-variant">4</td>
-                                <td class="p-3 font-bold border-r border-outline-variant">Thực tập hưởng lương</td>
-                                <td class="p-3 font-bold text-error text-lg">14$ - 28$/h<br><span class="text-sm text-on-surface-variant font-normal">Thu nhập hấp dẫn, có cơ hội tích lũy tài chính.</span></td>
-                            </tr>
-                            <tr class="bg-primary/5">
-                                <td class="p-3 font-bold text-center border-r border-outline-variant" rowspan="4"><span class="material-symbols-outlined text-primary text-2xl">workspace_premium</span></td>
-                                <td class="p-3 font-bold border-r border-outline-variant text-primary uppercase border-b border-outline-variant/50" rowspan="4">4 Cam Kết Vàng<br><span class="text-sm text-on-surface-variant font-normal normal-case">An tâm tuyệt đối cho Phụ huynh</span></td>
-                                <td class="p-3 font-bold text-on-surface border-b border-outline-variant/50 flex items-center gap-2"><span class="material-symbols-outlined text-success-green">paid</span> Thực tập hưởng lương</td>
-                            </tr>
-                            <tr class="bg-primary/5">
-                                <td class="p-3 font-bold text-on-surface border-b border-outline-variant/50 flex items-center gap-2"><span class="material-symbols-outlined text-success-green">health_and_safety</span> Bảo hiểm Y tế quốc tế (Được bảo vệ toàn diện)</td>
-                            </tr>
-                            <tr class="bg-primary/5">
-                                <td class="p-3 font-bold text-on-surface border-b border-outline-variant/50 flex items-center gap-2"><span class="material-symbols-outlined text-success-green">work</span> Bảo hiểm công việc (Hỗ trợ kết nối xuyên suốt, không lo thất nghiệp)</td>
-                            </tr>
-                            <tr class="bg-primary/5">
-                                <td class="p-3 font-bold text-on-surface flex items-center gap-2"><span class="material-symbols-outlined text-success-green">support_agent</span> Hỗ trợ tại Mỹ 24/7 (Đơn vị uy tín luôn đồng hành cùng học viên)</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="p-4 md:p-6 bg-white grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="flex items-start gap-4">
+                        <span class="material-symbols-outlined text-[#1f3c88] text-5xl">health_and_safety</span>
+                        <div>
+                            <h5 class="font-bold text-lg text-primary uppercase">Bảo hiểm y tế quốc tế</h5>
+                            <p class="text-on-surface-variant text-sm mt-1">Được bảo vệ toàn diện về sức khỏe trong suốt
+                                thời gian trải nghiệm tại Mỹ.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <span class="material-symbols-outlined text-success-green text-5xl">work</span>
+                        <div>
+                            <h5 class="font-bold text-lg text-primary uppercase">Bảo hiểm công việc</h5>
+                            <p class="text-on-surface-variant text-sm mt-1">Hỗ trợ kết nối việc làm xuyên suốt chương
+                                trình – Hoàn toàn không lo thất nghiệp.</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="bg-error text-white text-center p-3 font-bold text-sm md:text-base uppercase flex items-center justify-center gap-2">
+                    <span class="material-symbols-outlined">favorite</span> Đơn vị uy tín - Hỗ trợ tại Mỹ 24/7 - Luôn
+                    đồng hành cùng học viên
+                </div>
+                <div
+                    class="bg-[#f8f9fa] text-center p-4 italic text-primary font-serif font-bold text-xl border-t border-outline-variant/30">
+                    "Con trưởng thành tại Mỹ – Bố mẹ an tâm tại Việt Nam" <span
+                        class="text-error font-sans">&hearts;</span>
                 </div>
             </div>
-            <div
-                class="p-6 border-t border-outline-variant bg-surface-container-low flex justify-end gap-4 rounded-b-3xl">
-                <button onclick="closeModal('usaJ1Modal')"
-                    class="px-6 py-2.5 rounded-full font-label-bold text-primary hover:bg-primary/10 transition-colors border border-outline-variant bg-surface-container-lowest">Đóng</button>
-                <button onclick="closeModal('usaJ1Modal'); setTimeout(() => openModal('consultModal'), 300)"
-                    class="bg-primary text-on-primary px-8 py-2.5 rounded-full font-label-bold hover:bg-primary-container hover:text-on-primary-container transition-colors shadow-sm">Đăng
-                    Ký Tư Vấn</button>
-            </div>
+
+        </div>
+        <div class="p-6 border-t border-outline-variant bg-surface-container-low flex justify-end gap-4 rounded-b-3xl">
+            <button onclick="closeModal('usaJ1Modal')"
+                class="px-6 py-2.5 rounded-full font-label-bold text-primary hover:bg-primary/10 transition-colors border border-outline-variant bg-surface-container-lowest">Đóng</button>
+            <button onclick="closeModal('usaJ1Modal'); setTimeout(() => openModal('consultModal'), 300)"
+                class="bg-primary text-on-primary px-8 py-2.5 rounded-full font-label-bold hover:bg-primary-container hover:text-on-primary-container transition-colors shadow-sm">Đăng
+                Ký Tư Vấn</button>
         </div>
     </div>
+</div>
