@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
             .then(data => {
                 if (data.result === 'success') {
                     // Chuyển hướng sang trang cảm ơn
-                    window.location.href = '/cam-on.html';
+                    window.location.href = 'cam-on.html';
                 } else {
                     alert('Có lỗi xảy ra: ' + data.error);
                     submitBtn.innerHTML = originalBtnText;
@@ -238,7 +238,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Hiệu ứng pháo hoa trên trang cảm ơn
-    if (window.location.pathname === '/cam-on.html') {
+    if (window.location.pathname.includes('cam-on.html')) {
         const duration = 3500;
         const end = Date.now() + duration;
         const colors = ['#0077b6', '#00b4d8', '#90e0ef', '#ffb703', '#fb8500'];
