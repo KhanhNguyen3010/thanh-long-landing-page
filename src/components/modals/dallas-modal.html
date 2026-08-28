@@ -1,0 +1,124 @@
+    <!-- Dallas Modal -->
+    <div id="dallasModal" onclick="closeModal('dallasModal')"
+        class="fixed inset-0 z-[100] hidden items-center justify-center bg-ink-black/60 backdrop-blur-sm p-4 opacity-0 transition-opacity duration-300">
+        <div onclick="event.stopPropagation()" class="bg-surface-container-lowest rounded-3xl w-full max-w-4xl max-h-[90vh] overflow-y-auto shadow-2xl transform scale-95 transition-transform duration-300"
+            id="dallasModalContent">
+            <div
+                class="sticky top-0 bg-surface-container-lowest border-b border-outline-variant p-6 flex justify-between items-center z-10">
+                <div>
+                    <h3 class="font-headline-md text-primary font-bold text-xl md:text-2xl">TUYỂN THỰC TẬP SINH ĐẦU BẾP TẠI MỸ</h3>
+                    <p class="text-secondary font-bold text-sm md:text-base uppercase">DALLAS MAVERICKS PERFORMANCE & TRAINING CENTER</p>
+                </div>
+                <button onclick="closeModal('dallasModal')"
+                    class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container-high text-on-surface-variant transition-colors">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+            </div>
+            <div class="p-6">
+                <!-- Vị trí tuyển dụng -->
+                <h4 class="font-bold text-primary text-lg mb-4 flex items-center gap-2"><span class="material-symbols-outlined">restaurant_menu</span> Vị trí tuyển dụng</h4>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+                    <!-- Đầu bếp chế biến -->
+                    <div class="bg-surface border border-outline-variant rounded-2xl p-5 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+                        <div>
+                            <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary mb-3">
+                                <span class="material-symbols-outlined text-2xl">soup_kitchen</span>
+                            </div>
+                            <h5 class="font-bold text-on-surface text-lg mb-1">ĐẦU BẾP CHẾ BIẾN</h5>
+                            <p class="text-on-surface-variant text-sm mb-3">(LINE COOK)</p>
+                            <span class="bg-primary/5 text-primary text-xs font-bold px-2 py-1 rounded-md mb-4 inline-block">03 VỊ TRÍ</span>
+                        </div>
+                        <div class="border-t border-outline-variant pt-3 flex justify-between items-center">
+                            <span class="text-on-surface-variant text-sm">Lương</span>
+                            <span class="font-black text-secondary text-xl">21 <span class="text-sm font-normal text-on-surface-variant">USD/GIỜ</span></span>
+                        </div>
+                    </div>
+
+                    <!-- Đầu bếp bánh -->
+                    <div class="bg-surface border border-outline-variant rounded-2xl p-5 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+                        <div>
+                            <div class="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center text-secondary mb-3">
+                                <span class="material-symbols-outlined text-2xl">cake</span>
+                            </div>
+                            <h5 class="font-bold text-on-surface text-lg mb-1">ĐẦU BẾP BÁNH</h5>
+                            <p class="text-on-surface-variant text-sm mb-3">(PASTRY COOK)</p>
+                            <span class="bg-secondary/5 text-secondary text-xs font-bold px-2 py-1 rounded-md mb-4 inline-block">01 VỊ TRÍ</span>
+                        </div>
+                        <div class="border-t border-outline-variant pt-3 flex justify-between items-center">
+                            <span class="text-on-surface-variant text-sm">Lương</span>
+                            <span class="font-black text-secondary text-xl">21 <span class="text-sm font-normal text-on-surface-variant">USD/GIỜ</span></span>
+                        </div>
+                    </div>
+
+                    <!-- Phụ bếp -->
+                    <div class="bg-surface border border-outline-variant rounded-2xl p-5 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+                        <div>
+                            <div class="w-12 h-12 bg-error/10 rounded-full flex items-center justify-center text-error mb-3">
+                                <span class="material-symbols-outlined text-2xl">kitchen</span>
+                            </div>
+                            <h5 class="font-bold text-on-surface text-lg mb-1">PHỤ BẾP</h5>
+                            <p class="text-on-surface-variant text-sm mb-3">(PREP COOK)</p>
+                            <span class="bg-error/5 text-error text-xs font-bold px-2 py-1 rounded-md mb-4 inline-block">01 VỊ TRÍ</span>
+                        </div>
+                        <div class="border-t border-outline-variant pt-3 flex justify-between items-center">
+                            <span class="text-on-surface-variant text-sm">Lương</span>
+                            <span class="font-black text-secondary text-xl">21 <span class="text-sm font-normal text-on-surface-variant">USD/GIỜ</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Thời gian -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                    <div class="bg-[#002B5C] text-white rounded-2xl p-5 flex items-center gap-4">
+                        <div class="w-14 h-14 bg-white/20 rounded-full flex items-center justify-center">
+                            <span class="material-symbols-outlined text-3xl">calendar_month</span>
+                        </div>
+                        <div>
+                            <p class="text-white/80 text-sm font-bold uppercase tracking-wider mb-1">Thời gian bắt đầu</p>
+                            <p class="text-2xl font-black text-[#F4B41A]">THÁNG 9/2026</p>
+                        </div>
+                    </div>
+                    <div class="bg-[#002B5C] text-white rounded-2xl p-5 flex items-center gap-4">
+                        <div class="w-14 h-14 bg-white/20 rounded-full flex items-center justify-center">
+                            <span class="material-symbols-outlined text-3xl">schedule</span>
+                        </div>
+                        <div>
+                            <p class="text-white/80 text-sm font-bold uppercase tracking-wider mb-1">Thời gian thực tập</p>
+                            <p class="text-2xl font-black text-[#F4B41A]">12 THÁNG</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quyền lợi -->
+                <h4 class="font-bold text-primary text-lg mb-4 flex items-center gap-2"><span class="material-symbols-outlined">star</span> Quyền lợi hấp dẫn</h4>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div class="bg-surface-container-low border border-outline-variant rounded-xl p-4 text-center">
+                        <span class="material-symbols-outlined text-4xl text-primary mb-2">account_balance</span>
+                        <p class="font-bold text-sm text-on-surface">MÔI TRƯỜNG LÀM VIỆC CHUYÊN NGHIỆP</p>
+                    </div>
+                    <div class="bg-surface-container-low border border-outline-variant rounded-xl p-4 text-center">
+                        <span class="material-symbols-outlined text-4xl text-success-green mb-2">payments</span>
+                        <p class="font-bold text-sm text-on-surface mb-1">THU NHẬP HẤP DẪN</p>
+                        <p class="text-success-green font-black">21 USD/GIỜ</p>
+                    </div>
+                    <div class="bg-surface-container-low border border-outline-variant rounded-xl p-4 text-center">
+                        <span class="material-symbols-outlined text-4xl text-secondary mb-2">flight_takeoff</span>
+                        <p class="font-bold text-sm text-on-surface">TÍCH LŨY KINH NGHIỆM TẠI HOA KỲ</p>
+                    </div>
+                    <div class="bg-surface-container-low border border-outline-variant rounded-xl p-4 text-center">
+                        <span class="material-symbols-outlined text-4xl text-[#9C27B0] mb-2">trending_up</span>
+                        <p class="font-bold text-sm text-on-surface">NÂNG CAO TIẾNG ANH VÀ KỸ NĂNG NGHỀ</p>
+                    </div>
+                </div>
+
+            </div>
+            <div
+                class="p-6 border-t border-outline-variant bg-surface-container-low flex justify-end gap-4 rounded-b-3xl">
+                <button onclick="closeModal('dallasModal')"
+                    class="px-6 py-2.5 rounded-full font-label-bold text-primary hover:bg-primary/10 transition-colors border border-outline-variant bg-surface-container-lowest">Đóng</button>
+                <button onclick="closeModal('dallasModal'); setTimeout(() => openModal('consultModal'), 300)"
+                    class="bg-primary text-on-primary px-8 py-2.5 rounded-full font-label-bold hover:bg-primary-container hover:text-on-primary-container transition-colors shadow-sm">Đăng
+                    Ký Tư Vấn</button>
+            </div>
+        </div>
+    </div>

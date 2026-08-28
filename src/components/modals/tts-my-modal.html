@@ -1,0 +1,129 @@
+    <!-- TTS My Modal -->
+    <div id="ttsMyModal" onclick="closeModal('ttsMyModal')"
+        class="fixed inset-0 z-[100] hidden items-center justify-center bg-ink-black/60 backdrop-blur-sm p-4 opacity-0 transition-opacity duration-300">
+        <div onclick="event.stopPropagation()" class="bg-surface-container-lowest rounded-3xl w-full max-w-4xl max-h-[90vh] overflow-y-auto shadow-2xl transform scale-95 transition-transform duration-300"
+            id="ttsMyModalContent">
+            <div
+                class="sticky top-0 bg-surface-container-lowest border-b border-outline-variant p-6 flex justify-between items-center z-10">
+                <div>
+                    <h3 class="font-headline-md text-primary font-bold text-xl md:text-2xl">LÀM THỰC TẬP SINH TẠI MỸ</h3>
+                    <p class="text-secondary font-bold text-sm md:text-base uppercase">GIAO LƯU VĂN HÓA MỸ - BỘ NGOẠI GIAO MỸ</p>
+                </div>
+                <button onclick="closeModal('ttsMyModal')"
+                    class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container-high text-on-surface-variant transition-colors">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+            </div>
+            
+            <div class="p-6">
+                <!-- Highlight Banner -->
+                <div class="bg-gradient-to-r from-primary to-secondary rounded-2xl p-6 text-white text-center mb-8 shadow-lg relative overflow-hidden">
+                    <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=\'20\' height=\'20\' viewBox=\'0 0 20 20\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'0.1\' fill-rule=\'evenodd\'%3E%3Ccircle cx=\'3\' cy=\'3\' r=\'3\'/%3E%3Ccircle cx=\'13\' cy=\'13\' r=\'3\'/%3E%3C/g%3E%3C/svg%3E')] opacity-30"></div>
+                    <div class="relative z-10">
+                        <p class="text-lg md:text-xl font-bold uppercase tracking-wider mb-2">Đủ hồ sơ và tiếng Anh</p>
+                        <h4 class="text-3xl md:text-4xl font-black mb-4">4 - 6 THÁNG CÓ VISA</h4>
+                        <div class="inline-block bg-white text-error font-black px-6 py-2 rounded-full text-xl md:text-2xl shadow-md">
+                            THU NHẬP 90TR - 143TR/THÁNG
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Công việc -->
+                <h4 class="font-bold text-primary text-lg mb-4 flex items-center gap-2">
+                    <span class="material-symbols-outlined">work</span> Các vị trí công việc
+                </h4>
+                <div class="bg-surface-container-low border border-outline-variant rounded-xl p-5 mb-8 text-on-surface-variant font-medium text-lg leading-relaxed shadow-sm">
+                    Lễ tân, nhà hàng, quản lý tiệc, đầu bếp, làm phòng, quản lý phòng.
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                    <!-- Yêu cầu / Điều kiện -->
+                    <div>
+                        <h4 class="font-bold text-primary text-lg mb-4 flex items-center gap-2">
+                            <span class="material-symbols-outlined">fact_check</span> Điều kiện tham gia
+                        </h4>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-3 bg-surface border border-outline-variant rounded-lg p-3 shadow-sm hover:shadow-md transition-shadow">
+                                <span class="material-symbols-outlined text-primary mt-0.5">person</span>
+                                <div>
+                                    <span class="font-bold text-on-surface block">Từ 18 - 33 tuổi</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-3 bg-surface border border-outline-variant rounded-lg p-3 shadow-sm hover:shadow-md transition-shadow">
+                                <span class="material-symbols-outlined text-primary mt-0.5">school</span>
+                                <div>
+                                    <span class="font-bold text-on-surface block">Tốt nghiệp Cấp 3</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-3 bg-surface border border-outline-variant rounded-lg p-3 shadow-sm hover:shadow-md transition-shadow">
+                                <span class="material-symbols-outlined text-primary mt-0.5">translate</span>
+                                <div>
+                                    <span class="font-bold text-on-surface block">Tiếng Anh IELTS 5.0</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-3 bg-surface border border-outline-variant rounded-lg p-3 shadow-sm hover:shadow-md transition-shadow">
+                                <span class="material-symbols-outlined text-primary mt-0.5">hourglass_top</span>
+                                <div>
+                                    <span class="font-bold text-on-surface block">Làm hồ sơ 4 - 6 tháng</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-3 bg-surface border border-outline-variant rounded-lg p-3 shadow-sm hover:shadow-md transition-shadow">
+                                <span class="material-symbols-outlined text-primary mt-0.5">mail</span>
+                                <div>
+                                    <span class="font-bold text-on-surface block">Có thư mời của Chủ doanh nghiệp</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Ưu điểm vượt trội -->
+                    <div>
+                        <h4 class="font-bold text-secondary text-lg mb-4 flex items-center gap-2">
+                            <span class="material-symbols-outlined">verified</span> Ưu điểm vượt trội
+                        </h4>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-3 bg-success-green-light/20 border border-success-green/30 rounded-lg p-3 shadow-sm hover:shadow-md transition-shadow">
+                                <span class="material-symbols-outlined text-success-green mt-0.5">check_circle</span>
+                                <div>
+                                    <span class="font-bold text-on-surface block">Không chứng minh tài chính</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-3 bg-success-green-light/20 border border-success-green/30 rounded-lg p-3 shadow-sm hover:shadow-md transition-shadow">
+                                <span class="material-symbols-outlined text-success-green mt-0.5">check_circle</span>
+                                <div>
+                                    <span class="font-bold text-on-surface block">Không chứng minh thu nhập</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-3 bg-success-green-light/20 border border-success-green/30 rounded-lg p-3 shadow-sm hover:shadow-md transition-shadow">
+                                <span class="material-symbols-outlined text-success-green mt-0.5">check_circle</span>
+                                <div>
+                                    <span class="font-bold text-on-surface block">Không khám sức khỏe</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-3 bg-success-green-light/20 border border-success-green/30 rounded-lg p-3 shadow-sm hover:shadow-md transition-shadow">
+                                <span class="material-symbols-outlined text-success-green mt-0.5">check_circle</span>
+                                <div>
+                                    <span class="font-bold text-on-surface block">Có hình xăm vẫn đi được</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Footer Slogan -->
+                <div class="text-center italic font-medium text-primary text-lg md:text-xl border-t border-outline-variant pt-6 mt-4">
+                    "Tầm nhìn hướng ra thế giới, trái tim hướng về tổ quốc"
+                </div>
+
+            </div>
+            
+            <div
+                class="p-6 border-t border-outline-variant bg-surface-container-low flex justify-end gap-4 rounded-b-3xl">
+                <button onclick="closeModal('ttsMyModal')"
+                    class="px-6 py-2.5 rounded-full font-label-bold text-primary hover:bg-primary/10 transition-colors border border-outline-variant bg-surface-container-lowest">Đóng</button>
+                <button onclick="closeModal('ttsMyModal'); setTimeout(() => openModal('consultModal'), 300)"
+                    class="bg-primary text-on-primary px-8 py-2.5 rounded-full font-label-bold hover:bg-primary-container hover:text-on-primary-container transition-colors shadow-sm">Đăng
+                    Ký Tư Vấn</button>
+            </div>
+        </div>
+    </div>
