@@ -130,9 +130,9 @@
                 <img alt="Thành Long Logo" class="h-10 w-auto group-hover:scale-105 transition-transform duration-300"
                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTIb1kIb6SEawijvrHf9IzUyubkEPfSNhKlCPJ__v6ANo_KhVIiPavAq1sE2pWOSRBzLG_PURP7pwvWtoG76wxNKsampm6LQJ1R7Xvox5DMrYQ1wdJcrvN2AvNDt9EoU3WIHKZEHh8ouNpyzSrHCqpZOr89_Fp12jymoXeutfiKxjRxfiC8O0QQQ1kBmbfmOx6HDs-W2cZweSpsvpGAHRf0shVrVEmvY4VwWiD_-EMtr2SxPqhIrXopP2eopRq45SfpVw" />
             </div>
-            <nav class="hidden md:flex gap-8 items-center">
+            <nav id="desktopNav" class="hidden md:flex gap-8 items-center">
                 <a class="relative text-sm text-on-surface-variant hover:text-primary transition-colors font-label-bold after:content-[''] after:absolute after:-bottom-1 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 hover:after:w-full"
-                    href="./">Trang chủ</a>
+                    href="./index.html">Trang chủ</a>
                 <a class="relative text-sm text-on-surface-variant hover:text-primary transition-colors font-label-bold after:content-[''] after:absolute after:-bottom-1 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 hover:after:w-full"
                     href="./about.html">Về chúng tôi</a>
     
@@ -157,11 +157,12 @@
                 <span
                     class="absolute inset-0 w-full h-full bg-white/20 -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-in-out"></span>
                 <span class="relative flex items-center gap-1.5">
-                    <span class="material-symbols-outlined text-[14px]">support_agent</span> Tư vấn: 0962.581.175
+                    <span class="material-symbols-outlined text-[14px]">support_agent</span> Tư vấn: 0378.120.990
                 </span>
             </a>
             <div class="md:hidden flex items-center gap-3">
-                <a href="./contact.html" class="bg-gradient-to-r from-primary to-primary-container text-on-primary px-5 py-2.5 rounded-full font-bold text-sm shadow-md active:scale-95 transition-transform">
+                <a href="./contact.html"
+                    class="bg-gradient-to-r from-primary to-primary-container text-on-primary px-5 py-2.5 rounded-full font-bold text-sm shadow-md active:scale-95 transition-transform">
                     Liên hệ ngay
                 </a>
                 <button onclick="toggleMenu()"
@@ -182,7 +183,7 @@
             </button>
         </div>
     
-        <nav class="flex flex-col gap-6 w-full px-margin-mobile mt-8">
+        <nav id="mobileNav" class="flex flex-col gap-6 w-full px-margin-mobile mt-8">
             <a href="./index.html"
                 class="flex items-center gap-4 text-headline-sm font-bold text-on-surface hover:text-primary transition-colors border-b border-outline-variant/20 pb-4">
                 <span class="material-symbols-outlined text-primary">home</span> Trang chủ
@@ -231,6 +232,58 @@
                 }, 300); // 300ms khớp với duration-300 của Tailwind
             }
         }
+    
+        // Dynamic Navigation Highlight
+        document.addEventListener('DOMContentLoaded', () => {
+            let path = window.location.pathname;
+            let page = path.split('/').pop();
+            if (page === '' || page === '/') page = 'index.html';
+    
+            // Desktop Nav Highlight
+            const desktopLinks = document.querySelectorAll('#desktopNav a');
+            desktopLinks.forEach(link => {
+                const href = link.getAttribute('href').replace('./', '');
+                if (href === 'programs.html') {
+                    if (page === 'programs.html') {
+                        link.classList.remove('bg-primary/10', 'text-primary');
+                        link.classList.add('bg-primary', 'text-white');
+                        const innerDot = link.querySelector('span.relative.inline-flex.rounded-full.h-2.w-2');
+                        if (innerDot) {
+                            innerDot.classList.remove('bg-secondary');
+                            innerDot.classList.add('bg-white');
+                        }
+                    }
+                    return; // Xử lý xong thì bỏ qua
+                }
+                
+                if (href === page || (page === 'index.html' && href === '')) {
+                    link.classList.remove('text-on-surface-variant', 'after:w-0');
+                    link.classList.add('text-primary', 'after:w-full');
+                }
+            });
+    
+            // Mobile Nav Highlight
+            const mobileLinks = document.querySelectorAll('#mobileNav a');
+            if (mobileLinks.length > 0) {
+                mobileLinks.forEach(link => {
+                    const href = link.getAttribute('href').replace('./', '');
+                    
+                    if (href === page || (page === 'index.html' && href === '')) {
+                        link.classList.remove('text-on-surface', 'border-outline-variant/20');
+                        if (href === 'programs.html') {
+                            link.classList.add('bg-primary', 'text-white', 'rounded-2xl', 'p-4', 'shadow-md', 'border-none');
+                            const icon = link.querySelector('.material-symbols-outlined');
+                            if (icon) {
+                                icon.classList.remove('text-primary');
+                                icon.classList.add('text-white');
+                            }
+                        } else {
+                            link.classList.add('text-primary', 'border-primary');
+                        }
+                    }
+                });
+            }
+        });
     </script>
     <main class="flex-grow">
         <!-- Contact Hero Section -->
@@ -306,8 +359,7 @@
                                     </div>
                                     <div>
                                         <h4 class="font-label-bold text-lg text-on-surface mb-2">Trụ sở chính</h4>
-                                        <p class="font-body-md text-on-surface-variant mb-4 leading-relaxed">Khoái Châu, Hưng
-                                            Yên, Việt Nam</p>
+                                        <p class="font-body-md text-on-surface-variant mb-4 leading-relaxed">ĐT 384 Xã Khoái Châu Tỉnh Hưng Yên</p>
                                         <a href="#"
                                             class="inline-flex items-center gap-1 text-primary font-label-bold hover:text-secondary transition-colors group-hover:gap-2">
                                             Chỉ đường <span class="material-symbols-outlined text-sm">arrow_forward</span>
@@ -327,7 +379,7 @@
                                 <h4 class="font-label-bold text-sm text-on-surface mb-1">Hotline tư vấn</h4>
                                 <p
                                     class="font-display-sm text-lg text-secondary font-black mb-1 group-hover:scale-105 origin-left transition-transform">
-                                    0962.581.175</p>
+                                    0378.120.990</p>
                                 <p class="font-caption text-xs text-slate-gray">Hỗ trợ 24/7</p>
                             </div>
         
@@ -513,11 +565,11 @@
                     <ul class="space-y-3">
                         <li class="flex gap-2">
                             <span class="material-symbols-outlined text-secondary shrink-0 text-[20px]">location_on</span>
-                            <span class="text-on-surface-variant">Khoái Châu, Hưng Yên, Vietnam</span>
+                            <span class="text-on-surface-variant">ĐT 384 Xã Khoái Châu Tỉnh Hưng Yên</span>
                         </li>
                         <li class="flex gap-2">
                             <span class="material-symbols-outlined text-secondary shrink-0 text-[20px]">call</span>
-                            <span class="text-on-surface-variant font-bold">0962.581.175</span>
+                            <span class="text-on-surface-variant font-bold">0378.120.990</span>
                         </li>
                         <li class="flex gap-2">
                             <span class="material-symbols-outlined text-secondary shrink-0 text-[20px]">badge</span>
@@ -635,7 +687,7 @@
         <!-- Floating Action Buttons -->
         <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-4 items-center">
             <!-- Zalo Button -->
-            <a href="https://zalo.me/0962581175" target="_blank" rel="noopener noreferrer"
+            <a href="https://zalo.me/0378120990" target="_blank" rel="noopener noreferrer"
                 class="w-14 h-14 bg-[#0068FF] rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform hover:shadow-xl relative group"
                 style="border-radius: 50%;">
                 <span
@@ -647,11 +699,11 @@
                 </svg>
             </a>
             <!-- Phone Button -->
-            <a href="tel:0962581175"
+            <a href="tel:0378120990"
                 class="w-14 h-14 bg-error rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform hover:shadow-xl relative group"
                 style="border-radius: 50%;">
                 <span
-                    class="absolute right-full mr-4 bg-surface-container-lowest px-3 py-1.5 rounded-lg text-sm font-label-bold text-on-surface whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity shadow-md pointer-events-none border border-outline-variant">0962.581.175</span>
+                    class="absolute right-full mr-4 bg-surface-container-lowest px-3 py-1.5 rounded-lg text-sm font-label-bold text-on-surface whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity shadow-md pointer-events-none border border-outline-variant">0378.120.990</span>
                 <span class="material-symbols-outlined text-white text-3xl">call</span>
             </a>
         </div>
